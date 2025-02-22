@@ -86,5 +86,46 @@ macro so make AmRRON checkins easier for operators.  There is also a
 `Edit NWOTW` macro that being up the file in a text editor to make it easy
 to change.
 
+### The Setup Files
 
+There are two setup files that perform the same function on Windows and Linux:
+`setup.bat` (Windows) and `setup.sh` (Linux).
+
+The idea is that you copy the NCS macros and the `files` dir with the data files
+to where you want to store your macros (like in your `fldigi.files`) dir and 
+run the setup script.  All it does is fix the file paths in the macro files to 
+match you macro location through simple string replacement.  
+
+This is to eliminate, as much as possible, the need to manually edit the macros.
+
+### The Edit Macros
+
+Some of the macros call up a text editor to edit the data files in the `files` 
+dir.  This is entirely optional and the text editor to be used is defined by
+the end user's system and personal preferences.  Here are some caveats based on 
+my experiences playing with it.
+
+First, FLDIGI is prone to crash when calling external programs with its `EXEC`
+macro if it's not setup exactly right.  You can lose any changes to your
+macro files if you havent saves them before it crashes.  It seems to like some
+programs and dispise others.  I don't think the `EXEC` macro was actually 
+written to launch text editors, but you can make it work and it DOES make 
+editing the data files much easier.
+
+In Windows `notepad.exe` seems to work fine for a single file like the NWOTW.
+However, AFAIK, you can't specify multiple files on the notepad command line.
+For brinbging up an editor with all the NCS data file in it, I have found that
+Visual Studio Code works great on both Windows and Linux.  It's free and is a
+great editor.  I would rather specify something that comes by default on the OS,
+but couldnt find a multi-tabbed editor that FLDIGI was happy with.
+
+### The `NCS MACROS` and `OP MACROS` buttons
+
+So, I discovered FLDIGI's `MACROS` macro which lets you load a different macro
+file.  This essentially lets you implement multiple macro "pages" to further
+organize your macros.  Strangely, it's not hard to use all 48 macros.
+
+I recently discovered this and used it to switch between `NARPNet_NCS.mdf` and 
+`NARPNet_OP.mdf`.  This feature may lead to the greatest amount of change to 
+this macro set -- how they are organized.
 
