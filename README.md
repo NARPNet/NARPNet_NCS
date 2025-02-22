@@ -92,7 +92,7 @@ in support of AmRRON.  Easy to get and update.  Doesnt change much.  Not sure
 if this will stay or not.
 
 * `NWOTW.txt`: not used in the NCS macros because we decided in discussions that
-we would not implement NTOTW in the MARPNet Digital Net.  But this file there 
+we would not implement NTOTW in the NARPNet Digital Net.  But this file there 
 in the `AmR Checkin` utility macro to make AmRRON checkins more convenient for 
 operators.  There is also a `Edit NWOTW` macro that being up the file in a text 
 editor to make it easy to change (see below on the edit macros).
