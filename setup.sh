@@ -12,7 +12,6 @@ echo $replace1
 echo $search2
 echo $replace2
 
-
 if [ -f NARPNet_NCS.mdf.orig ]
 then
   echo "####################################"

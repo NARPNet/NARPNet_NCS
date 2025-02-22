@@ -5,7 +5,6 @@ set "replace1=%~dp0files\"
 set "search2=MACRO_DIR/"
 set "replace2=%~dp0"
 
-
 if exist "NARPNet_NCS.mdf.orig" (
   echo ####################################
   echo You can't run setup.bat twice.
