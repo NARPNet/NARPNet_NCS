@@ -1,2 +1,2 @@
-I'm a grumpy NCS that doesnt have any remarks.
-Or I forgot to edit my remarks file.
+I'm a grumpy NCS that doesn't have any remarks.
+Or maybe I just forgot to edit my NCS_REMARKS.txt file.
