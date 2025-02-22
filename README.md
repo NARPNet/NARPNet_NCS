@@ -76,8 +76,8 @@ reasons.
 * `NCS_REMARKS.txt`: This is transmitted in the preamble to the net (`START.2`).
 The idea is that the NCS might have announcement or other info to contribute.
 Another reason is so that there will be something to make the net a little
-different each week.  SEEN uses quotes with a blurb of explanation, etc.  
-Could be short commentary on current events, etc.  Whatever the NCS thinks is
+different each week. SEEN uses quotes with a blurb of explanation, etc. Could be
+short commentary on current events, etc.  Whatever the NCS thinks is
 appropriate.
 
 * `NCS_CLOSING.txt`: This is similar to `NCS_REMARKS.txt` and is transmitted in
