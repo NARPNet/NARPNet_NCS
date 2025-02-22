@@ -8,13 +8,13 @@ NCS Macros for the NARPNet Digital Net.
 **This is VERY preliminary at this point.**  
 
 Just my first draft of a set of macros.  I am learning more and more about
-FLDIGI and macros as I do this.  Things will definitley change.  Maybe
+FLDIGI and macros as I do this.  Things will definitely change.  Maybe
 drastically.
 
 We need discussion among others to end up with a generally acceptable set of
 macros.  Please use the Discussions area of this repo for that.  If there are
 any actual bugs, please talk about them in Discussions first and then report an
-Issue if necessary.  You probably neet to create a GitHub account if you dont
+Issue if necessary.  You probably need to create a GitHub account if you don't
 already have one.
 
 I may make an initial downloadable zip file release in Releases soon.
@@ -44,16 +44,16 @@ documentation will come in time as the macros stabilize a bit.*
 ### The Macro Files
 
 To use these, you really need to tell FLDIGI to show the 48 macros with *View /
-View/Hide 48 macros*.  This will show all 48 maxcro buttons.
+View/Hide 48 macros*.  This will show all 48 macro buttons.
 
-The files are really subject to change but here is a basic decription of what's
+The files are really subject to change but here is a basic description of what's
 there right now.
 
 * `NARPNet_NCS.mdf`: the main NARPNet NCS macro file.  
   * The green buttons on the left are numbered in order of the flow of the net.  
   * The red buttons in the middle are general "operator" functions (i.e., not
   necessarily NCS).  
-  * The blue buttons on the right are things that dont transmit anything.  They
+  * The blue buttons on the right are things that don't transmit anything.  They
   just configure things and such.
 
 * `NARPNet_OP.mdf`: So far this is just the NCS file with the NCS stuff deleted.
@@ -89,11 +89,11 @@ AmRRON NCS's have colorful and humorous ways of signing off.
 It is filled out in advance before each net.  It is used in the `NCS_TFC` macro.
 
 * `AmCON_Level.txt`: The current AmRRON level from the AmRRON home page.  A nod
-in support of AmRRON.  Easy to get and update.  Doesnt change much.  Not sure
+in support of AmRRON.  Easy to get and update.  Doesn't change much.  Not sure
 if this will stay or not.
 
 * `NWOTW.txt`: not used in the NCS macros because we decided in discussions that
-we would not implement NTOTW in the NARPNet Digital Net.  But this file there in
+we would not implement NWOTW in the NARPNet Digital Net.  But this file there in
 the `AmR Checkin` utility macro to make AmRRON checkins more convenient for
 operators.  There is also a `Edit NWOTW` macro that brings up the file in a text
 editor to make it easy to change (see below on the edit macros).
@@ -124,8 +124,8 @@ experiences playing with it.
 
 First, FLDIGI is prone to crash when calling external programs with its `EXEC`
 macro if it's not setup exactly right.  You can lose any changes to your macro
-files or config if you havent saved them before it crashes.  FLDIGI seems to
-like some programs and dispise others and I havent delved into why.  I don't
+files or config if you haven't saved them before it crashes.  FLDIGI seems to
+like some programs and despise others and I haven't delved into why.  I don't
 think the `EXEC` macro was actually written to launch text editors, but you can
 make it work and it really does make editing the data files much easier.
 
@@ -134,7 +134,7 @@ However, AFAIK, you can't specify multiple files on the notepad command line.
 For bringing up a tabbed editor with all the NCS data file in it, I have found
 that Visual Studio Code works great on both Windows and Linux.  It's free and is
 a great editor.  I would rather specify something that comes by default on the
-OS, but couldnt find a multi-tabbed editor that FLDIGI was happy with.  Perhaps
+OS, but couldn't find a multi-tabbed editor that FLDIGI was happy with.  Perhaps
 more work can be put into this.
 
 ### The `NCS MACROS` and `OP MACROS` buttons
