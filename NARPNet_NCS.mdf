@@ -14,7 +14,6 @@
 <# Starts and ends with an attention getting 2 sec tune tone.  Can also be used #>\n
 <# to determine if your radio is tuned properly for SW radio RX-only listeners. #>\n
 <################################################################################>\n
-\n
 <CLRTX><TXRSID:on><TUNE:5><TX>\n
 \n
 <<<\n
