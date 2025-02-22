@@ -14,7 +14,8 @@ drastically.
 We need discussion among others to end up with a generally acceptable set of
 macros.  Please use the Discussions area of this repo for that.  If there are
 any actual bugs, please talk about them in Discussions first and then report an
-Issue if necessary.
+Issue if necessary.  You probably neet to create a GitHub account if you dont
+already have one.
 
 I may make an initial downloadable zip file release in Releases soon.
 
