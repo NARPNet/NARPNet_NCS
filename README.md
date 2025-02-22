@@ -1,6 +1,6 @@
-# NARPNet_NCS
+# NARPNet_NCS Macros
 
-NCS Macros for the NARPNet Digital Net
+NCS Macros for the NARPNet Digital Net.
 
 
 ## Current status
