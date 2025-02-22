@@ -147,13 +147,13 @@ break\n
 /$ 5 SW 2 C-4/250 @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-Switching mode to C-4/250 now... \n
+Switching mode to C-4/250 now...\n
 \n
-<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4> \n
---------------- \n
-In C-4/250 \n
+<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
+---------------\n
+In C-4/250\n
 \n
 \n
 <RX>
@@ -163,11 +163,11 @@ In C-4/250 \n
 /$ 6 STBY 4 FLMSG @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-*** \n
-***  Stand by for FLMSG traffic... \n
-*** \n
+***\n
+***  Stand by for FLMSG traffic...\n
+***\n
 \n
 \n
 <RX>
@@ -221,39 +221,39 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <################################################################################>\n
 <CLRTX><TXRSID:on><TX>\n
 \n
-de <MYCALL> NCS \n
+de <MYCALL> NCS\n
 \n
-*** CHECK-INS *** \n
+*** CHECK-INS ***\n
 \n
-Thank you for the early check-ins.  I ACK the following: \n
+Thank you for the early check-ins.  I ACK the following:\n
 \n
 \n
-<FILE:MACRO_DIR/files/CHECKINS.txt> \n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
 \n
-If you do not see your check-in ACK'd above, please retransmit when \n
-I call for check-ins in a moment. \n
+If you do not see your check-in ACK'd above, please retransmit when\n
+I call for check-ins in a moment.\n
 \n
-To check-in to the net, pls use the following format: \n
+To check-in to the net, pls use the following format:\n
 \n
-     DE CALLSIGN CALLSIGN / NAME / COUNTY / STATE / any traffic with precedence \n
+     DE CALLSIGN CALLSIGN / NAME / COUNTY / STATE / any traffic with precedence\n
 \n
-For example: \n
+For example:\n
 \n
-     DE <MYCALL> <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC \n
+     DE <MYCALL> <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 \n
-If I had traffic, then instead of "NO TFC", I would indicate how many, and the \n
+If I had traffic, then instead of "NO TFC", I would indicate how many, and the\n
 precedence level, for example: "1 RRR".\n
 \n
 NOTE:\n
-- I will ACK check-ins as a group. \n
-- Dont repeat early check-ins which were ACK'd above. \n
-- Dont repeat your check-in unless you do not see it when I ACK new check-ins. \n
+- I will ACK check-ins as a group.\n
+- Dont repeat early check-ins which were ACK'd above.\n
+- Dont repeat your check-in unless you do not see it when I ACK new check-ins.\n
 \n
 Thank you.\n
 \n
-*** \n
-***  Check-ins or relays call now. \n
-*** \n
+***\n
+***  Check-ins or relays call now.\n
+***\n
 \n
 \n
 <RX>
@@ -364,13 +364,13 @@ In MFSK32.\n
 /$ 17 SW 2 MFSK32 @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-Switching mode to MFSK32 now... \n
+Switching mode to MFSK32 now...\n
 \n
-<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32> \n
---------------- \n
-In MFSK32. \n
+<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32>\n
+---------------\n
+In MFSK32.\n
 \n
 <RX>
 
@@ -379,11 +379,11 @@ In MFSK32. \n
 /$ 18 STBY 4 FLAMP  @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-*** \n
-***  Stand by for FLAMP traffic... \n
-*** \n
+***\n
+***  Stand by for FLAMP traffic...\n
+***\n
 \n
 \n
 <RX>
@@ -434,13 +434,13 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 <################################################################################>\n
 <# NCS BLOCK FILL REQUEST                                                       #>\n
 <################################################################################>\n
-<CLRTX><TXRSID:on><MODEM:MFSK32><TX> \n
+<CLRTX><TXRSID:on><MODEM:MFSK32><TX>\n
 \n
-de <MYCALL> NCS \n
+de <MYCALL> NCS\n
 \n
-*** \n
+***\n
 ***  Stations missing blocks, please report now.\n
-*** \n
+***\n
 \n
 \n
 <RX>
@@ -521,7 +521,7 @@ de <MYCALL> NCS\n
 /$ 28 TX DE @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
 \n
 <RX>
@@ -531,13 +531,13 @@ de <MYCALL> \n
 /$ 29 SW 2 MFSK64 @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-Switching mode to MFSK64 now... \n
+Switching mode to MFSK64 now...\n
 \n
-<!MODEM:MFSK64><!MODEM:MFSK64><!MODEM:MFSK64> \n
---------------- \n
-In MFSK64. \n
+<!MODEM:MFSK64><!MODEM:MFSK64><!MODEM:MFSK64>\n
+---------------\n
+In MFSK64.\n
 \n
 <RX>
 
@@ -548,9 +548,9 @@ In MFSK64. \n
 \n
 de <MYCALL>\n
 \n
-*** \n
+***\n
 ***  Stations missing any blocks, please report now.\n
-*** \n
+***\n
 \n
 \n
 <RX>
@@ -743,7 +743,7 @@ CHECKINS.txt:\n
 <FILE:MACRO_DIR/files/CHECKINS.txt>\n
 \n
 --------------------------\n
-NCS_TFC.txt: \n
+NCS_TFC.txt:\n
 \n
 \n
 <FILE:MACRO_DIR/files/NCS_TFC.txt>\n
@@ -752,7 +752,7 @@ NCS_TFC.txt: \n
 AmCON_Level.txt:\n
 \n
 \n
-<FILE:MACRO_DIR/files/AmCON_Level.txt> \n
+<FILE:MACRO_DIR/files/AmCON_Level.txt>\n
 \n
 --------------------------\n
 NCS_REMARKS.txt\n

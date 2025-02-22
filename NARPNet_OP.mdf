@@ -36,13 +36,13 @@
 /$ 5 SW 2 C-4/250 @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-Switching mode to C-4/250 now... \n
+Switching mode to C-4/250 now...\n
 \n
-<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4> \n
---------------- \n
-In C-4/250 \n
+<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
+---------------\n
+In C-4/250\n
 \n
 \n
 <RX>
@@ -52,11 +52,11 @@ In C-4/250 \n
 /$ 6 STBY 4 FLMSG @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-*** \n
-***  Stand by for FLMSG traffic... \n
-*** \n
+***\n
+***  Stand by for FLMSG traffic...\n
+***\n
 \n
 \n
 <RX>
@@ -131,13 +131,13 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 /$ 17 SW 2 MFSK32 @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-Switching mode to MFSK32 now... \n
+Switching mode to MFSK32 now...\n
 \n
-<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32> \n
---------------- \n
-In MFSK32. \n
+<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32>\n
+---------------\n
+In MFSK32.\n
 \n
 <RX>
 
@@ -146,11 +146,11 @@ In MFSK32. \n
 /$ 18 STBY 4 FLAMP  @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-*** \n
-***  Stand by for FLAMP traffic... \n
-*** \n
+***\n
+***  Stand by for FLAMP traffic...\n
+***\n
 \n
 \n
 <RX>
@@ -220,7 +220,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR\files\
 /$ 28 TX DE @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
 \n
 <RX>
@@ -230,13 +230,13 @@ de <MYCALL> \n
 /$ 29 SW 2 MFSK64 @>|
 <TX>\n
 \n
-de <MYCALL> \n
+de <MYCALL>\n
 \n
-Switching mode to MFSK64 now... \n
+Switching mode to MFSK64 now...\n
 \n
-<!MODEM:MFSK64><!MODEM:MFSK64><!MODEM:MFSK64> \n
---------------- \n
-In MFSK64. \n
+<!MODEM:MFSK64><!MODEM:MFSK64><!MODEM:MFSK64>\n
+---------------\n
+In MFSK64.\n
 \n
 <RX>
 
@@ -247,9 +247,9 @@ In MFSK64. \n
 \n
 de <MYCALL>\n
 \n
-*** \n
+***\n
 ***  Stations missing any blocks, please report now.\n
-*** \n
+***\n
 \n
 \n
 <RX>
