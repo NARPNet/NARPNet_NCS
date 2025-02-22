@@ -7,11 +7,6 @@ replace1=$SCRIPT_DIR/files/
 search2=MACRO_DIR/
 replace2=$SCRIPT_DIR/
 
-echo $search1
-echo $replace1
-echo $search2
-echo $replace2
-
 if [ -f NARPNet_NCS.mdf.orig ]
 then
   echo "####################################"
