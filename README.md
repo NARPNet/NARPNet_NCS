@@ -51,7 +51,7 @@ there right now.
 * `NARPNet_NCS.mdf`: the main NARPNet NCS macro file.  
   * The green buttons on the left are numbered in order of the flow of the net.  
   * The red buttons in the middle are general "operator" functions (i.e., not
-  necessaily NCS).  
+  necessarily NCS).  
   * The blue buttons on the right are things that dont transmit anything.  They
   just configure things and such.
 
