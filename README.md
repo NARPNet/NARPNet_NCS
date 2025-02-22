@@ -63,7 +63,11 @@ transmitted verbatim without any macro tag replacements.
 * `CHECKINS.txt`: This is the most important and most used file.  It contains 
 the check-ins that the NCS has seen so far.  It is where the NCS record the
 checkins and is transmitted in full in `Ck-ins Call` (to ACK early check-ins) 
-and in `Ck-in Roster` (to list of all the check-ins at the end of the net).
+and in `Ck-in Roster` (to list of all the check-ins at the end of the net). I
+believe that it was suggested in the AmRRON macros that this file not be saved
+or archived in any way because it contains FCC call signs which are personally
+identifying information.  We should probably handle it this way for pravacy 
+reasons.
 
 * `NCS_REMARKS.txt`: This is transmitted in the preamble to the net (`START.2`).
 The idea is that the NCS might have announcement or other info to contribute.
