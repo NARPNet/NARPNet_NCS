@@ -1,4 +1,4 @@
-# NARPNet_NCS Macros
+# NARPNet NCS Macros
 
 NCS Macros for the NARPNet Digital Net.
 
