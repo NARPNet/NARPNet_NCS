@@ -35,6 +35,10 @@ defined in the NARPNet NCS macros was patterned off of both AmRRON and SEEN
 nets.  Also, the NARPNet NCS macros are more tailored to having a team of 
 NCS's rather than a single operator.
 
+*The following is just a description of the files and such.  It is not intended 
+to be a users manual that describes how to use the macros to run a net.  That
+documentation will come in time as the macros stabilize a bit.*
+
 
 ### The Macro Files
 
@@ -66,17 +70,19 @@ checkins and is transmitted in full in `Ck-ins Call` (to ACK early check-ins)
 and in `Ck-in Roster` (to list of all the check-ins at the end of the net). I
 believe that it was suggested in the AmRRON macros that this file not be saved
 or archived in any way because it contains FCC call signs which are personally
-identifying information.  We should probably handle it this way for pravacy 
+identifying information.  We should probably handle it this way for privacy 
 reasons.
 
 * `NCS_REMARKS.txt`: This is transmitted in the preamble to the net (`START.2`).
 The idea is that the NCS might have announcement or other info to contribute.
-The idea is that there will be something different here to make the net a little
-different each week.  SEEN uses quotes with a blurb of explanation, etc.  Could
-be short commentary on current events, etc.
+Another reason is so that there will be something to make the net a little 
+different each week.  SEEN uses quotes with a blurb of explanation, etc.  
+Could be short commentary on current events, etc.  Whatever the NCS thinks is
+appropriate.
 
 * `NCS_CLOSING.txt`: This is similar to `NCS_REMARKS.txt` and is transmitted in 
-the closing of the net.  The NCS's personal way of signing off.
+the closing of the net.  The NCS's personal way of signing off.  Some of the
+AmRRON NCS's have colorful and humorous ways of signing off.
 
 * `NCS_TFC.txt`: This is a list of files that the NCS will transmit to the net.
 It is filled out in advance before each net.  It is used in the `NCS_TFC` macro.
@@ -85,10 +91,11 @@ It is filled out in advance before each net.  It is used in the `NCS_TFC` macro.
 in support of AmRRON.  Easy to get and update.  Doesnt change much.  Not sure
 if this will stay or not.
 
-* `NWOTW.txt`: not used in the NCS macros, but is there in the `AmR Checkin`
-macro so make AmRRON checkins easier for operators.  There is also a 
-`Edit NWOTW` macro that being up the file in a text editor to make it easy
-to change.
+* `NWOTW.txt`: not used in the NCS macros because we decided in discussions that
+we would not implement NTOTW in the MARPNet Digital Net.  But this file there 
+in the `AmR Checkin` utility macro to make AmRRON checkins more convenient for 
+operators.  There is also a `Edit NWOTW` macro that being up the file in a text 
+editor to make it easy to change (see below on the edit macros).
 
 ### The Setup Files
 
@@ -97,10 +104,15 @@ There are two setup files that perform the same function on Windows and Linux:
 
 The idea is that you copy the NCS macros and the `files` dir with the data files
 to where you want to store your macros (like in your `fldigi.files`) dir and 
-run the setup script.  All it does is fix the file paths in the macro files to 
-match you macro location through simple string replacement.  
+then run the setup script.  All it does is fix the file paths in the macro files 
+to match you macro location through simple string replacement.  This is 
+necessary because FLDIGI seems to want to full path to the file.  There seems to
+be no default dir for relative paths except for the current working directory of
+the running FLDIGI executable.
 
-This is to eliminate, as much as possible, the need to manually edit the macros.
+The setup files are there to eliminate, as much as possible, the need to 
+manually edit the macros.  Hopefully this will make it easier on folks who 
+aren't accustomed to doing this sort of stuff.
 
 ### The Edit Macros
 
@@ -111,17 +123,18 @@ my experiences playing with it.
 
 First, FLDIGI is prone to crash when calling external programs with its `EXEC`
 macro if it's not setup exactly right.  You can lose any changes to your
-macro files if you havent saves them before it crashes.  It seems to like some
-programs and dispise others.  I don't think the `EXEC` macro was actually 
-written to launch text editors, but you can make it work and it DOES make 
-editing the data files much easier.
+macro files or config if you havent saved them before it crashes.  FLDIGI seems 
+to like some programs and dispise others and I havent delved into why.  I don't 
+think the `EXEC` macro was actually written to launch text editors, but you can 
+make it work and it really does make editing the data files much easier.
 
-In Windows `notepad.exe` seems to work fine for a single file like the NWOTW.
+In Windows, `notepad.exe` seems to work fine for a single file like the NWOTW.
 However, AFAIK, you can't specify multiple files on the notepad command line.
-For brinbging up an editor with all the NCS data file in it, I have found that
-Visual Studio Code works great on both Windows and Linux.  It's free and is a
-great editor.  I would rather specify something that comes by default on the OS,
-but couldnt find a multi-tabbed editor that FLDIGI was happy with.
+For bringing up a tabbed editor with all the NCS data file in it, I have found 
+that Visual Studio Code works great on both Windows and Linux.  It's free and is 
+a great editor.  I would rather specify something that comes by default on the 
+OS, but couldnt find a multi-tabbed editor that FLDIGI was happy with.  Perhaps
+more work can be put into this.
 
 ### The `NCS MACROS` and `OP MACROS` buttons
 
@@ -129,7 +142,7 @@ So, I discovered FLDIGI's `MACROS` macro which lets you load a different macro
 file.  This essentially lets you implement multiple macro "pages" to further
 organize your macros.  Strangely, it's not hard to use all 48 macros.
 
-I recently discovered this and used it to switch between `NARPNet_NCS.mdf` and 
-`NARPNet_OP.mdf`.  This feature may lead to the greatest amount of change to 
-this macro set -- how they are organized.
+I recently discovered this feature and used it to switch between 
+`NARPNet_NCS.mdf` and `NARPNet_OP.mdf`.  This feature may lead to the greatest 
+amount of change to how this macro set is organized.
 
