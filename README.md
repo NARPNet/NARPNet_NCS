@@ -10,6 +10,8 @@ macros.  Please use the Discussions area of this repo for that.  If there are
 any actual bugs, please talk about them in Discussions first and then report an
 Issue if necessary.
 
+I may make an initial downloadable zip file release in Releases soon.
+
 ## Overview
 
 These macros are intended to make it as simple as practical for NCS's to run
