@@ -132,7 +132,7 @@ First, FLDIGI is prone to crash when calling external programs with its `EXEC`
 macro if `EXEC` called exactly right.  If it crashes you can lose any unsaved
 changes to your macro files or config (ask me how I know).  FLDIGI seems to like
 some programs and despise others and I haven't delved into why.  I don't think
-the `EXEC` macro was actually written to launch text editors, but you can make
+the `EXEC` macro was actually intended to launch text editors, but you can make
 it work and it really does make editing the data files much easier when you
 don't have to open the filesystem and navigate to where the files are.
 
