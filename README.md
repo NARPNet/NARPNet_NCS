@@ -56,7 +56,7 @@ there right now.
   just configure things and such.
 
 * `NARPNet_OP.mdf`: So far this is just the NCS file with the NCS stuff deleted.
-It's just there in cast the participants of the net want a macro file to make it
+It's just there in case the participants of the net want a macro file to make it
 easier to check-in, send traffic and stuff.
 
 ### The Data Files
