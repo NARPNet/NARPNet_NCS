@@ -9,5 +9,6 @@
         "NARPNet",
         "NWOTW",
         "txt"
-    ]
+    ],
+    "git.enableCommitSigning": true
 }
