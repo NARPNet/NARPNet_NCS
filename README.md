@@ -168,10 +168,11 @@ instructions to point you in the right direction.
 - download and extract the [latest pre-release
   zip](https://github.com/NARPNet/NARPNet_NCS/releases/latest/)
 - copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`
-- Windows: double click on `setup.bat` (should complete without errors)
-- Linux: double click on `setup.sh` (should complete without errors, but you
-  might have to make it executable first and you *might* have to fix Window line
-  termination)
+- Run the setup script:
+  - Windows: double click on `setup.bat` (should complete without errors)
+  - Linux: double click on `setup.sh` (should complete without errors)
+    - You probably have to make it executable first, and 
+    - you *might* have to fix Window line termination in the script file
 - Open FLDIGI
 - Make sure that your call sign, first name, county and state are filled out in
   the FLDIGI Operator config.
