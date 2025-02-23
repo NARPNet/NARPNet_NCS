@@ -724,7 +724,7 @@ de <MYCALL>   Passing control back to NCS.\n
 <# Notepad.  I suggest Visual Studio Code on Windows, Mac, and Linux.  It is    #>\n
 <# free and a very good editor.  https://code.visualstudio.com/download         #>\n
 <################################################################################>\n
-<EXEC>"C:\Users\mprevost\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
+<EXEC>"C:\Users\lobanz\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
 
 
 //
