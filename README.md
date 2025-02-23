@@ -24,7 +24,7 @@ under Assets and ignore the source code zips.  Also see the [preliminary install
 
 ## Overview
 
-These macros are intended to make ist as simple as practical for NCS's to run the
+These macros are intended to make it as simple as practical for NCS's to run the
 NARPNet Digital Net.  Making it simple is helpful in promoting more NCS's to
 help shoulder the load of running a reliable weekly net.
 
@@ -34,14 +34,13 @@ pieces, some of which are used multiple times in a row -- like asking if there
 are any more check-ins.
 
 These macros were patterned after those distributed by AmRRON.  The net flow
-defined in the NARPNet NCS macros was patterned after both AmRRON and SEEN
-nets.  Also, the NARPNet NCS macros are more tailored to having a team of NCS's
+defined in the NARPNet NCS macros was patterned after both AmRRON and SEEN nets.
+Also, the NARPNet NCS macros are more tailored to having a team of NCS operators
 rather than a single operator.
 
 *The following is just a description of the files and such.  It is not intended
-to be a users manual that describes how install the macros or how to use the
-macros to run a net.  That documentation will come in time as the macros
-stabilize a bit.*
+to be a users manual that describes how to use the macros to run a net.  That
+documentation will come in time as the macros stabilize a bit.*
 
 
 ### The Macro Files
@@ -65,9 +64,9 @@ easier to check-in, send traffic and stuff.
 
 ### The Data Files
 
-These are files in the `files` dir used by the NCS macros for information that
-changes from net to net.  They are transmitted verbatim without any macro tag
-replacements.
+The data files are in the `files` dir and are used by the NCS macros for
+information that changes from net to net.  They are transmitted verbatim without
+any macro tag replacements.
 
 * `CHECKINS.txt`: This is the most important and most used file.  It contains
 the check-ins that the NCS has seen so far.  It is where the NCS records the
@@ -76,10 +75,10 @@ Call` (to ACK early check-ins) and in `Ck-in Roster` (to list of all the
 check-ins at the end of the net). I believe that it was suggested in the AmRRON
 macros that this file not be saved or archived in any way because it contains
 FCC call signs which are personally identifying information.  We should probably
-handle the check-in data in this way for privacy reasons.
+handle the check-in data carefully for privacy reasons.
 
 * `NCS_REMARKS.txt`: This is transmitted in the preamble to the net (`START.2`).
-The idea is that the NCS might have announcement or other info to contribute.
+The idea is that the NCS might have an announcement or other info to contribute.
 Another reason is so that there will be something to make the net a little
 different each week. SEEN uses quotations with a blurb of explanation, etc. Or,
 it could be a short commentary on current events, etc.  Whatever the individual
@@ -94,9 +93,9 @@ the net from seeming cold and stagnant.
 * `NCS_TFC.txt`: This is a list of files that the NCS will transmit to the net.
 It is filled out in advance before each net.  It is used in the `NCS_TFC` macro.
 
-* `AmCON_Level.txt`: The current AmRRON level from the AmRRON home page.  A nod
-in support of AmRRON.  Easy to get and update.  Doesn't change much.  Not sure
-if this will stay a part of the net or not.
+* `AmCON_Level.txt`: The current AmRRON level from the AmRRON home page.  It is
+a nod in support of AmRRON.  Easy to get and update.  Doesn't change much.  Not
+sure if this will stay a part of the net or not.
 
 * `NWOTW.txt`: not used in the NCS macros because we decided in discussions that
 we would not implement NWOTW in the NARPNet Digital Net.  But this file is used
@@ -115,9 +114,9 @@ macros (like in your `fldigi.files/macros` dir) and then run the setup script.
 You can double click it from your file manager. All it does is fix the file
 paths in the macro files to match your macro location through simple string
 replacement based on the location of the setup script. This is necessary because
-FLDIGI seems to want to want full path to the file.  There does not seem to be a
-default dir for relative paths except for the current working directory of the
-running FLDIGI executable.
+FLDIGI seems to want to want the full path to the file.  There does not seem to
+be a default dir for relative paths except for the current working directory of
+the running FLDIGI executable.
 
 The setup files are there to eliminate, as much as possible, the need to
 manually edit the macros.  Hopefully this will make it easier on regular folks
@@ -132,7 +131,7 @@ tweak this macro for your environment.  Here are some caveats based on my
 experiences playing with it.
 
 First, FLDIGI is prone to crash when calling external programs with its `EXEC`
-macro if `EXEC` called exactly right. So, until you get it tweaked right, be
+macro if `EXEC` isn't called exactly right. So, until you get it tweaked right, be
 prepared to FLDIGI to crash when you click the button.  If it crashes you can
 lose any unsaved changes to your macro files or config (ask me how I know).
 FLDIGI seems to like some programs and despise others and I haven't delved into
@@ -148,8 +147,8 @@ found that Visual Studio Code works great on both Windows and Linux (on Linux,
 install the .deb/.rpm package from the vscode site, not the flatpack -- it must
 have /usr/bin/code). It's free, based on open source (like Chrome vs Chromium),
 and it's a great editor.  I would rather specify an editor that comes by default
-on the OS, but couldn't find a multi-tabbed editor that FLDIGI was happy with.
-Perhaps more work can be put into this.
+on the OS, but couldn't find a built-in, multi-tabbed editor that FLDIGI was
+happy with. Perhaps more work can be put into this.
 
 ### The `NCS MACROS` and `OP MACROS` buttons
 
@@ -183,13 +182,14 @@ instructions to point you in the right direction.
   macros`.
 - Use `File / Macro / Open` to open the `NARPNet_NCS.mdf` file.
 - Test the file locations using the `Test NCS Files` macro button: it should
-  dump the contents of all the NCS files without errors.
+  dump the contents of all the NCS data files without errors.
 - DON'T click on the edit macro buttons unless you are prepared for FLDIGI to
   crash until you get them tweaked right. 
-  - The `Edit NWOTW` button should work on Windows because it uses notepad.
+  - The `Edit NWOTW` button should work on Windows because it edits a single
+    file using notepad.
 - Once `Test NCS Files` is working correctly, play with the macros at will.  If
   you right click on them, they have comments at the top that explain them a
-  bit.
+  little bit.
 
 Please report your experiences in the GitHub Discussion area or via email to
 lobanz@protonmail.com.  Thanks!
