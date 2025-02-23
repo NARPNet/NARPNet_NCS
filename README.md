@@ -184,7 +184,8 @@ instructions to point you in the right direction.
 - Test the file locations using the `Test NCS Files` macro button: it should
   dump the contents of all the NCS files without errors.
 - DON'T click on the edit macro buttons unless you are prepared for FLDIGI to
-  crash until you get them tweaked right.
+  crash until you get them tweaked right. 
+  - The `Edit NWOTW` button should work on Windows because it uses notepad.
 - Once `Test NCS Files` is working correctly, play with the macros at will.  If
   you right click on them, they have comments at the top explain them a bit.
 
