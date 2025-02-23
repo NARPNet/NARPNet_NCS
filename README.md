@@ -167,18 +167,19 @@ If you want to play with the macros, here are some basic installation
 instructions to point you in the right direction.
 - Download and extract the [latest pre-release
   zip](https://github.com/NARPNet/NARPNet_NCS/releases/latest/) (file is under
-  "Assets")
-- Copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`
+  "Assets").
+- Copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`.
 - Run the setup script:
-  - Windows: double click on `setup.bat` (should complete without errors)
-  - Linux: double click on `setup.sh` (should complete without errors)
-    - You probably have to make it executable first, and 
-    - you *might* have to fix Windows line termination in the script file
-- Open FLDIGI
+  - Windows: double click on `setup.bat` (should complete without errors).
+  - Linux: double click on `setup.sh` (should complete without errors).
+    - You probably have to make it executable first.
+    - You might have to tell it to run the script in a terminal.
+    - You *might* have to fix Windows line termination in the script file.
+- Open FLDIGI.
 - Make sure that your call sign, first name, county and state are filled out in
   the FLDIGI Operator config.
 - Make sure that the 48 macro buttons are visible with `View -> View/Hide 48
-  macros`
+  macros`.
 - Use `File / Macro / Open` to open the `NARPNet_NCS.mdf` file.
 - Test the file locations using the `Test NCS Files` macro button: it should
   dump the contents of all the NCS files without errors.
