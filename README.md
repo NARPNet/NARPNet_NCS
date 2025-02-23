@@ -34,7 +34,7 @@ pieces, some of which are used multiple times in a row -- like asking if there
 are any more check-ins.
 
 These macros were patterned after those distributed by AmRRON.  The net flow
-defined in the NARPNet NCS macros was patterned off of both AmRRON and SEEN
+defined in the NARPNet NCS macros was patterned after both AmRRON and SEEN
 nets.  Also, the NARPNet NCS macros are more tailored to having a team of NCS's
 rather than a single operator.
 
@@ -168,7 +168,8 @@ instructions to point you in the right direction.
 - Download and extract the [latest pre-release
   zip](https://github.com/NARPNet/NARPNet_NCS/releases/latest/) (file is under
   "Assets").
-- Copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`.
+- Copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`
+  directory.
 - Run the setup script:
   - Windows: double click on `setup.bat` (should complete without errors).
   - Linux: double click on `setup.sh` (should complete without errors).
