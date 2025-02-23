@@ -172,7 +172,7 @@ instructions to point you in the right direction.
   - Windows: double click on `setup.bat` (should complete without errors)
   - Linux: double click on `setup.sh` (should complete without errors)
     - You probably have to make it executable first, and 
-    - you *might* have to fix Window line termination in the script file
+    - you *might* have to fix Windows line termination in the script file
 - Open FLDIGI
 - Make sure that your call sign, first name, county and state are filled out in
   the FLDIGI Operator config.
