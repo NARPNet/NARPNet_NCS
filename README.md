@@ -19,7 +19,8 @@ Discussions or file Issues, you must have a GitHub account.
 
 You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
-under Assets and ignore the source code zips.  Also see the [preliminary installation instructions, below](#preliminary-installation-instructions).
+under Assets and ignore the source code zips.  Also see the [preliminary
+installation instructions, below](#preliminary-installation-instructions).
 
 
 ## Overview
