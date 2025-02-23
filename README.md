@@ -165,10 +165,10 @@ amount of change to how this macro set is organized.
 
 If you want to play with the macros, here are some basic installation
 instructions to point you in the right direction.
-- download and extract the [latest pre-release
+- Download and extract the [latest pre-release
   zip](https://github.com/NARPNet/NARPNet_NCS/releases/latest/) (file is under
   "Assets")
-- copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`
+- Copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`
 - Run the setup script:
   - Windows: double click on `setup.bat` (should complete without errors)
   - Linux: double click on `setup.sh` (should complete without errors)
