@@ -15,7 +15,7 @@ We need discussion among others interested in being NCS operators to end up with
 a generally acceptable set of macros.  Please use the Discussions area of this
 repo for that.  If there are any actual bugs, please talk about them in
 Discussions first and then report an Issue if necessary.  To participate in
-Discussions or file Issues, you to have a GitHub account.
+Discussions or file Issues, you must have a GitHub account.
 
 You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
@@ -24,7 +24,7 @@ under Assets and ignore the source code zips.  Also see the [preliminary install
 
 ## Overview
 
-These macros are intended to make it as simple as practical for NCS's to run the
+These macros are intended to make ist as simple as practical for NCS's to run the
 NARPNet Digital Net.  Making it simple is helpful in promoting more NCS's to
 help shoulder the load of running a reliable weekly net.
 
