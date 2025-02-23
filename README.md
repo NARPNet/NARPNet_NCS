@@ -176,7 +176,7 @@ instructions to point you in the right direction.
     - You might have to tell it to run the script in a terminal.
     - You *might* have to fix Windows line termination in the script file and
       maybe all the data files in the files dir.  This will be addressed somehow
-      in future releases.
+      in future releases.  Maybe via a zip for Windows and a tar for Linux.
 - Open FLDIGI.
 - Make sure that your call sign, first name, county and state are filled out in
   the FLDIGI Operator config.
