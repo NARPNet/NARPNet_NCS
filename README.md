@@ -11,11 +11,11 @@ Just my first draft of a set of macros.  I am learning more and more about
 FLDIGI and macros as I do this.  Things will definitely change.  Maybe
 drastically.
 
-We need discussion among others to end up with a generally acceptable set of
-macros.  Please use the Discussions area of this repo for that.  If there are
-any actual bugs, please talk about them in Discussions first and then report an
-Issue if necessary.  To participate in Discussions or file Issues, you to have a
-GitHub account.
+We need discussion among others interested in being NCS operators to end up with
+a generally acceptable set of macros.  Please use the Discussions area of this
+repo for that.  If there are any actual bugs, please talk about them in
+Discussions first and then report an Issue if necessary.  To participate in
+Discussions or file Issues, you to have a GitHub account.
 
 You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
