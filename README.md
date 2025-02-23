@@ -188,7 +188,8 @@ instructions to point you in the right direction.
   crash until you get them tweaked right. 
   - The `Edit NWOTW` button should work on Windows because it uses notepad.
 - Once `Test NCS Files` is working correctly, play with the macros at will.  If
-  you right click on them, they have comments at the top explain them a bit.
+  you right click on them, they have comments at the top that explain them a
+  bit.
 
 Please report your experiences in the GitHub Discussion area or via email to
 lobanz@protonmail.com.  Thanks!
