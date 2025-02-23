@@ -19,7 +19,7 @@ Discussions or file Issues, you to have a GitHub account.
 
 You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
-under Assets and ignore the source code zips.
+under Assets and ignore the source code zips.  Also see the [preliminary installation instructions, below](#preliminary-installation-instructions).
 
 
 ## Overview
@@ -161,3 +161,29 @@ I recently discovered this feature and used it to switch between
 `NARPNet_NCS.mdf` and `NARPNet_OP.mdf`.  This feature may lead to the greatest
 amount of change to how this macro set is organized.
 
+## Preliminary Installation Instructions
+
+If you want to play with the macros, here are some basic installation
+instructions to point you in the right direction.
+- download and extract the [latest pre-release
+  zip](https://github.com/NARPNet/NARPNet_NCS/releases/latest/)
+- copy the inner `NARPNet_NCS` dir to your `<HOME>/fldigi.files/macros`
+- Windows: double click on `setup.bat` (should complete without errors)
+- Linux: double click on `setup.sh` (should complete without errors, but you
+  might have to make it executable first and you *might* have to fix Window line
+  termination)
+- Open FLDIGI
+- Make sure that your call sign, first name, county and state are filled out in
+  the FLDIGI Operator config.
+- Make sure that the 48 macro buttons are visible with `View -> View/Hide 48
+  macros`
+- Use `File / Macro / Open` to open the `NARPNet_NCS.mdf` file.
+- Test the file locations using the `Test NCS Files` macro button: it should
+  dump the contents of all the NCS files without errors.
+- DON'T click on the edit macro buttons unless you are prepared for FLDIGI to
+  crash until you get them tweaked right.
+- Once `Test NCS Files` is working correctly, play with the macros at will.  If
+  you right click on them, they have comments at the top explain them a bit.
+
+Please report your experiences in the GitHub Discussion area or via email to
+lobanz@protonmail.com.  Thanks!
