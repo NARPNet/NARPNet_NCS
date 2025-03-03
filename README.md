@@ -1,6 +1,6 @@
 # NCS Macros for the NARPNet Digital Net.
 
-*Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)** *
+Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
 
 ## Current status
 
@@ -42,5 +42,5 @@ rather than a single operator.
 
 ## Documentation
 
-*Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)** *
+Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
 
