@@ -2,6 +2,26 @@
 
 Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
 
+## Overview
+
+These macros are intended to make it as simple as practical for NCS's to run the
+NARPNet Digital Net.  Making it simple is helpful in promoting more NCS's to
+help shoulder the load of running a reliable weekly net.
+
+A macro file for the net exists to reduce typing and to define a standardized
+flow of the net.  The macros basically chop the flow of the net into little
+pieces, some of which are used multiple times in a row -- like asking if there
+are any more check-ins.
+
+These macros were patterned after those distributed by AmRRON.  The net flow
+defined in the NARPNet NCS macros was patterned after both AmRRON and SEEN nets.
+Also, the NARPNet NCS macros are more tailored to having a team of NCS operators
+rather than a single operator.
+
+## Documentation
+
+Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
+
 ## Current status
 
 **This is a work in progress.**  
@@ -23,24 +43,4 @@ installation instructions, below](#preliminary-installation-instructions).
 
 Please report your experiences in the GitHub Discussion area or via email to
 lobanz@protonmail.com.  Thanks!
-
-## Overview
-
-These macros are intended to make it as simple as practical for NCS's to run the
-NARPNet Digital Net.  Making it simple is helpful in promoting more NCS's to
-help shoulder the load of running a reliable weekly net.
-
-A macro file for the net exists to reduce typing and to define a standardized
-flow of the net.  The macros basically chop the flow of the net into little
-pieces, some of which are used multiple times in a row -- like asking if there
-are any more check-ins.
-
-These macros were patterned after those distributed by AmRRON.  The net flow
-defined in the NARPNet NCS macros was patterned after both AmRRON and SEEN nets.
-Also, the NARPNet NCS macros are more tailored to having a team of NCS operators
-rather than a single operator.
-
-## Documentation
-
-Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
 
