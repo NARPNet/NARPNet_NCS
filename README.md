@@ -1,6 +1,7 @@
 # NCS Macros for the NARPNet Digital Net.
 
 Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
+Now with **[Video Instructions](https://github.com/NARPNet/NARPNet_NCS/wiki/5.-Video-Instructions)**
 
 ## Overview
 
