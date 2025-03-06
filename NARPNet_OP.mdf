@@ -64,7 +64,7 @@ de <MYCALL>\n
 //
 // Macro # 8
 /$ 7 NARP Checkin @>|
-<TXRSID:off>\n
+<TXRSID:off><CLRTX>\n
 <TX>\n
 \n
 \n
@@ -158,7 +158,7 @@ de <MYCALL>\n
 //
 // Macro # 20
 /$ 19 AmR Checkin @>|
-<TXRSID:off>\n
+<TXRSID:off><CLRTX>\n
 <TX>\n
 \n
 \n

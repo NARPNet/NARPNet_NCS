@@ -9,7 +9,7 @@
 //
 // Macro # 1
 /$ 0 1) 10 MIN @>|
-<################################################################################>\n
+<################################################################################>\n
 <# 10 MINUTE WARNING UNTIL NET STARTS                                           #>\n
 <# Starts and ends with an attention getting 2 sec tune tone.  Can also be used #>\n
 <# to determine if your radio is tuned properly for SW radio RX-only listeners. #>\n
@@ -24,7 +24,7 @@ Thank you!\n
 >>>\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 2
@@ -46,7 +46,7 @@ Thank you!\n
 \n
 \n
 <RX>\n
-<@TUNE:5>
+<@TUNE:5>
 
 //
 // Macro # 3
@@ -74,7 +74,7 @@ Emergency traffic may break in at any time.\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 4
@@ -135,12 +135,12 @@ NCS Remarks:\n
 break\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 5
 /$ 4 TX @>|
-<TX><RX>
+<TX><RX>
 
 //
 // Macro # 6
@@ -156,7 +156,7 @@ Switching mode to C-4/250 now...\n
 In C-4/250\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 7
@@ -170,19 +170,19 @@ de <MYCALL>\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 8
 /$ 7 NARP Checkin @>|
-<TXRSID:off>\n
+<TXRSID:off><CLRTX>\n
 <TX>\n
 \n
 \n
 DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 9
@@ -191,7 +191,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-
+
 
 //
 // Macro # 10
@@ -200,17 +200,17 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-
+
 
 //
 // Macro # 11
 /$ 10 Cont-4/250
-<MODEM:Cont-4/250>
+<MODEM:Cont-4/250>
 
 //
 // Macro # 12
 /$ 11 TGL WF LOCK
-<LOCK:t>
+<LOCK:t>
 
 //
 // Macro # 13
@@ -256,7 +256,7 @@ Thank you.\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 14
@@ -283,7 +283,7 @@ Thx for your check-ins. I ACK the following additional check-ins so far:\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 15
@@ -307,7 +307,7 @@ late check-ins.\n
 \n
 break\n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 16
@@ -352,12 +352,12 @@ In MFSK32.\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 17
 /$ 16 TX @>
-<TX>
+<TX>
 
 //
 // Macro # 18
@@ -372,7 +372,7 @@ Switching mode to MFSK32 now...\n
 ---------------\n
 In MFSK32.\n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 19
@@ -386,19 +386,19 @@ de <MYCALL>\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 20
 /$ 19 AmR Checkin @>|
-<TXRSID:off>\n
+<TXRSID:off><CLRTX>\n
 <TX>\n
 \n
 \n
 DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/NWOTW.txt> / NO TFC\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 21
@@ -407,7 +407,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-
+
 
 //
 // Macro # 22
@@ -416,17 +416,17 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-
+
 
 //
 // Macro # 23
 /$ 22 MFSK32
-<MODEM:MFSK32>
+<MODEM:MFSK32>
 
 //
 // Macro # 24
 /$ 23 WF 900
-<GOFREQ:900>
+<GOFREQ:900>
 
 //
 // Macro # 25
@@ -443,7 +443,7 @@ de <MYCALL> NCS\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 26
@@ -474,7 +474,7 @@ when appropriate.\n
 \n
 break\n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 27
@@ -491,7 +491,7 @@ de <MYCALL> NCS\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 28
@@ -514,7 +514,7 @@ de <MYCALL> NCS\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 29
@@ -524,7 +524,7 @@ de <MYCALL> NCS\n
 de <MYCALL>\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 30
@@ -539,7 +539,7 @@ Switching mode to MFSK64 now...\n
 ---------------\n
 In MFSK64.\n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 31
@@ -553,12 +553,12 @@ de <MYCALL>\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 32
 /$ 31 
-
+
 
 //
 // Macro # 33
@@ -567,7 +567,7 @@ de <MYCALL>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-
+
 
 //
 // Macro # 34
@@ -575,17 +575,17 @@ de <MYCALL>\n
 <QSY:7110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
-<TXRSID:off>
+<TXRSID:off>
 
 //
 // Macro # 35
 /$ 34 MFSK64
-<MODEM:MFSK64>
+<MODEM:MFSK64>
 
 //
 // Macro # 36
 /$ 35 
-
+
 
 //
 // Macro # 37
@@ -618,7 +618,7 @@ We will take late/missed check-ins now, and then give the check-in roster.\n
 ***\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 38
@@ -642,7 +642,7 @@ All of tonight's check-ins:\n
 \n
 break\n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 39
@@ -677,22 +677,22 @@ The net is closed.\n
 \n
 \n
 <RX>\n
-<@TUNE:2>
+<@TUNE:2>
 
 //
 // Macro # 40
 /$ 39 
-
+
 
 //
 // Macro # 41
 /$ 40 
-
+
 
 //
 // Macro # 42
 /$ 41 
-
+
 
 //
 // Macro # 43
@@ -703,7 +703,7 @@ The net is closed.\n
 de <MYCALL>   Passing control back to NCS.\n
 \n
 \n
-<RX>
+<RX>
 
 //
 // Macro # 44
@@ -712,7 +712,7 @@ de <MYCALL>   Passing control back to NCS.\n
 <#                                                                              #>\n
 <################################################################################>\n
 <EXEC>notepad.exe "MACRO_DIR/files/NWOTW.txt"</EXEC>\n
-
+
 
 //
 // Macro # 45
@@ -725,7 +725,7 @@ de <MYCALL>   Passing control back to NCS.\n
 <# free and a very good editor.  https://code.visualstudio.com/download         #>\n
 <################################################################################>\n
 <EXEC>"C:\Users\lobanz\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
-
+
 
 //
 // Macro # 46
@@ -765,12 +765,12 @@ NCS_CLOSING.txt\n
 \n
 \n
 <FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
-
+
 
 //
 // Macro # 47
 /$ 46 
-
+
 
 //
 // Macro # 48
