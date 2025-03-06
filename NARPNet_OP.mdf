@@ -40,7 +40,7 @@ de <MYCALL>\n
 \n
 Switching mode to C-4/250 now...\n
 \n
-<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
+<!MODEM:CONTESTIA:250:4>\n
 ---------------\n
 In C-4/250\n
 \n
@@ -54,9 +54,9 @@ In C-4/250\n
 \n
 de <MYCALL>\n
 \n
-***\n
-***  Stand by for FLMSG traffic...\n
-***\n
+*\n
+*  Stand by for FLMSG traffic...\n
+*\n
 \n
 \n
 <RX>
@@ -64,7 +64,9 @@ de <MYCALL>\n
 //
 // Macro # 8
 /$ 7 NARP Checkin @>|
-<TXRSID:off><CLRTX>\n
+<CLRTX>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
 <TX>\n
 \n
 \n
@@ -80,6 +82,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -89,6 +92,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -135,9 +139,10 @@ de <MYCALL>\n
 \n
 Switching mode to MFSK32 now...\n
 \n
-<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32>\n
+<!MODEM:MFSK32>\n
 ---------------\n
 In MFSK32.\n
+\n
 \n
 <RX>
 
@@ -148,9 +153,9 @@ In MFSK32.\n
 \n
 de <MYCALL>\n
 \n
-***\n
-***  Stand by for FLAMP traffic...\n
-***\n
+*\n
+*  Stand by for FLAMP traffic...\n
+*\n
 \n
 \n
 <RX>
@@ -158,11 +163,13 @@ de <MYCALL>\n
 //
 // Macro # 20
 /$ 19 AmR Checkin @>|
-<TXRSID:off><CLRTX>\n
+<CLRTX>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
 <TX>\n
 \n
 \n
-DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR\files\NWOTW.txt> / NO TFC\n
+DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/NWOTW.txt> / NO TFC\n
 \n
 \n
 <RX>
@@ -174,6 +181,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR\files\
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -183,6 +191,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR\files\
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -234,7 +243,7 @@ de <MYCALL>\n
 \n
 Switching mode to MFSK64 now...\n
 \n
-<!MODEM:MFSK64><!MODEM:MFSK64><!MODEM:MFSK64>\n
+<!MODEM:MFSK64>\n
 ---------------\n
 In MFSK64.\n
 \n
@@ -247,9 +256,9 @@ In MFSK64.\n
 \n
 de <MYCALL>\n
 \n
-***\n
-***  Stations missing any blocks, please report now.\n
-***\n
+*\n
+*  Stations missing any blocks, please report now.\n
+*\n
 \n
 \n
 <RX>
@@ -266,6 +275,7 @@ de <MYCALL>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -274,7 +284,8 @@ de <MYCALL>\n
 <QSY:7110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
-<TXRSID:off>
+<TXRSID:off>\n
+<RXRSID:on>
 
 //
 // Macro # 35
@@ -338,12 +349,55 @@ de <MYCALL>   Passing control back to NCS.\n
 
 //
 // Macro # 45
-/$ 44 
+/$ 44 Edit NCS Files
+<################################################################################>\n
+<# EDIT NCS FILES                                                               #>\n
+<# Brings up the NCS files in a text editor.  Will be different for each system.#>\n
+<# There doesnt seem like a way to open multiple files at a time in Windows     #>\n
+<# Notepad.  I suggest Visual Studio Code on Windows, Mac, and Linux.  It is    #>\n
+<# free and a very good editor.  https://code.visualstudio.com/download         #>\n
+<################################################################################>\n
+<EXEC>"C:\Users\lobanz\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
 
 
 //
 // Macro # 46
-/$ 45 
+/$ 45 Test NCS Files
+<################################################################################>\n
+<# TEST NCS FILES                                                               #>\n
+<# Just dumps the context of the text files to the TX pane.  Gives an error if  #>\n
+<# a file could not be opened.                                                  #>\n
+<################################################################################>\n
+<CLRTX>\n
+--------------------------\n
+CHECKINS.txt:\n
+\n
+\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
+\n
+--------------------------\n
+NCS_TFC.txt:\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_TFC.txt>\n
+\n
+--------------------------\n
+AmCON_Level.txt:\n
+\n
+\n
+<FILE:MACRO_DIR/files/AmCON_Level.txt>\n
+\n
+--------------------------\n
+NCS_REMARKS.txt\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_REMARKS.txt>\n
+\n
+--------------------------\n
+NCS_CLOSING.txt\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
 
 
 //
@@ -353,5 +407,5 @@ de <MYCALL>   Passing control back to NCS.\n
 
 //
 // Macro # 48
-/$ 47 NCS MACROS
-<MACROS:MACRO_DIR/NARPNet_NCS.mdf>
+/$ 47 OP MACROS
+<MACROS:MACRO_DIR/NARPNet_OP.mdf>

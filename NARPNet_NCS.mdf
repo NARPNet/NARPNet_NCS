@@ -69,9 +69,9 @@ the NCS calls for it.\n
 \n
 Emergency traffic may break in at any time.\n
 \n
-***\n
-***  Emergency traffic, please call now.  Approx 10 sec wait...\n
-***\n
+*\n
+*  Emergency traffic, please call now.  Approx 10 sec wait...\n
+*\n
 \n
 \n
 <RX>
@@ -165,9 +165,9 @@ In C-4/250\n
 \n
 de <MYCALL>\n
 \n
-***\n
-***  Stand by for FLMSG traffic...\n
-***\n
+*\n
+*  Stand by for FLMSG traffic...\n
+*\n
 \n
 \n
 <RX>
@@ -255,9 +255,9 @@ NOTE:\n
 \n
 Thank you.\n
 \n
-***\n
-***  Check-ins or relays call now.\n
-***\n
+*\n
+*  Check-ins or relays call now.\n
+*\n
 \n
 \n
 <RX>
@@ -282,9 +282,9 @@ Thx for your check-ins. I ACK the following additional check-ins so far:\n
 \n
 [PASTE ADDITIONAL CHECK-INS HERE]\n
 \n
-***\n
-***  Any more check-ins or relays? Call now.\n
-***\n
+*\n
+*  Any more check-ins or relays? Call now.\n
+*\n
 \n
 \n
 <RX>
@@ -351,9 +351,9 @@ Switching mode to MFSK32 now (RSID x3) ...\n
 ---------------\n
 In MFSK32.\n
 \n
-***\n
-***  Stand by for FLAMP transmission...\n
-***\n
+*\n
+*  Stand by for FLAMP transmission...\n
+*\n
 \n
 \n
 <RX>
@@ -376,6 +376,7 @@ Switching mode to MFSK32 now...\n
 ---------------\n
 In MFSK32.\n
 \n
+\n
 <RX>
 
 //
@@ -385,9 +386,9 @@ In MFSK32.\n
 \n
 de <MYCALL>\n
 \n
-***\n
-***  Stand by for FLAMP traffic...\n
-***\n
+*\n
+*  Stand by for FLAMP traffic...\n
+*\n
 \n
 \n
 <RX>
@@ -446,9 +447,9 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 \n
 de <MYCALL> NCS\n
 \n
-***\n
-***  Stations missing blocks, please report now.\n
-***\n
+*\n
+*  Stations missing blocks, please report now.\n
+*\n
 \n
 \n
 <RX>
@@ -494,9 +495,9 @@ break\n
 \n
 de <MYCALL> NCS\n
 \n
-***\n
-***  CALLSIGN, thank you for your traffic. Pls send your TFCLIST traffic now.\n
-***\n
+*\n
+*  CALLSIGN, thank you for your traffic. Pls send your TFCLIST traffic now.\n
+*\n
 \n
 \n
 <RX>
@@ -517,9 +518,9 @@ de <MYCALL> NCS\n
 \n
 de <MYCALL> NCS\n
 \n
-***\n
-***  Does anyone have traffic for the net?  Call now.\n
-***\n
+*\n
+*  Does anyone have traffic for the net?  Call now.\n
+*\n
 \n
 \n
 <RX>
@@ -547,6 +548,7 @@ Switching mode to MFSK64 now...\n
 ---------------\n
 In MFSK64.\n
 \n
+\n
 <RX>
 
 //
@@ -556,9 +558,9 @@ In MFSK64.\n
 \n
 de <MYCALL>\n
 \n
-***\n
-***  Stations missing any blocks, please report now.\n
-***\n
+*\n
+*  Stations missing any blocks, please report now.\n
+*\n
 \n
 \n
 <RX>
@@ -623,9 +625,9 @@ In Cont-4/250\n
 \n
 We will take late/missed check-ins now, and then give the check-in roster.\n
 \n
-***\n
-***  Check-ins or relays call now.\n
-***\n
+*\n
+*  Check-ins or relays call now.\n
+*\n
 \n
 \n
 <RX>
