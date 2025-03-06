@@ -1,0 +1,790 @@
+//fldigi macro definition file extended
+// This file defines the macro structure(s) for the digital modem program, fldigi
+// It also serves as a basis for any macros that are written by the user
+//
+// The top line of this file should always be the first line in every macro 
+// definition file (.mdf) for the fldigi program to recognize it as such.
+//
+
+//
+// Macro # 1
+/$ 0 1) 10 MIN @>|
+<################################################################################>\n
+<# 10 MINUTE WARNING UNTIL NET STARTS                                           #>\n
+<# Starts and ends with an attention getting 2 sec tune tone.  Can also be used #>\n
+<# to determine if your radio is tuned properly for SW radio RX-only listeners. #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TUNE:5><TX>\n
+\n
+<<<\n
+QST QST QST NARPNet de <MYCALL> NCS\n
+The NARPNet digital net will begin in about 10 min.\n
+We would appreciate a clear freq at that time.\n
+Thank you!\n
+>>>\n
+\n
+\n
+<RX>
+
+//
+// Macro # 2
+/$ 1 2) 5 MIN @>|
+<################################################################################>\n
+<# 5 MINUTE WARNING UNTIL NET STARTS                                            #>\n
+<# Starts and ends with an attention getting 2 sec tune tone.  Can also be used #>\n
+<# to determine if your radio is tuned properly for SW radio RX-only listeners. #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+<<<\n
+QST QST QST NARPNet de <MYCALL> NCS\n
+The NARPNet digital net will begin in about 5 min.\n
+We would appreciate a clear freq at that time.\n
+The following tune line should be at 900 on the WF.\n
+Thank you!\n
+>>>\n
+\n
+\n
+<RX>\n
+<@TUNE:5>
+
+//
+// Macro # 3
+/$ 2 3) START.1 @>|
+<################################################################################>\n
+<# FIRST NET START                                                              #>\n
+<# This is short to allow emergency traffic to break in.                        #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+\n
+QST QST QST NARPNet de <MYCALL> NCS\n
+\n
+###\n
+###  Welcome to the North Alabama Regional Preparedness Network (NARPNet) Digital Net\n
+###\n
+\n
+This is a directed net so pls hold check-ins and non-emergency traffic until\n
+the NCS calls for it.\n
+\n
+Emergency traffic may break in at any time.\n
+\n
+*\n
+*  Emergency traffic, please call now.  Approx 10 sec wait...\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 4
+/$ 3 4) START.2 @>|
+<################################################################################>\n
+<# SECOND NET START                                                             #>\n
+<# Main net preamble.  NCS intro, net description, agenda.                      #>\n
+<# The NCS_REMARKS.txt file can be left empty or it can contain announcements,  #>\n
+<# quotations, etc to make the net a little different each time.                #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+Good evening!\n
+\n
+Net Control Station (NCS):\n
+- My name is <MYNAME> and I will be the NCS tonight.\n
+- I am located in <MYCOUNTY> county, <MYST>.\n
+\n
+Please:\n
+- Turn OFF any beacons, heartbeats, sounders, etc.\n
+- Turn OFF the TxID in the upper right of FLDIGI\n
+- But make sure the RxID is turned ON (green)\n
+- Keep JS8Call traffic at 1900 or higher on the WF\n
+\n
+We are at <FILE:MACRO_DIR/files/AmCON_Level.txt>\n
+\n
+Net Description:\n
+The NARPNet Digital Net exists to facilitate communication among radio operators\n
+in North Alabama and the surrounding states should conventional forms of\n
+communication become unavailable.  More about NARPNet comms can be found at\n
+\n
+     https://narpnet.org/comms/\n
+\n
+This net uses the AmRRON style net framework.  We are grateful to AmRRON\n
+(amrron.com) and SEEN (senetwork.us) for the foundation they have laid both\n
+nationwide and in the southeast US region.\n
+\n
+Net Schedule:\n
+- Monday nights at 7:00 PM Central\n
+- 3.591 Mhz USB, 900 on the waterfall\n
+- FLDIGI starting in Contestia 4/250, MFSK32 for traffic\n
+\n
+Net Agenda:\n
+- Check-ins\n
+- NCS Traffic\n
+- NET Traffic (if any)\n
+- Late Check-ins\n
+- Full Check-in Roster\n
+- Closing\n
+\n
+NCS Remarks:\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_REMARKS.txt>\n
+\n
+break\n
+\n
+\n
+<RX>
+
+//
+// Macro # 5
+/$ 4 TX @>|
+<TX><RX>
+
+//
+// Macro # 6
+/$ 5 SW 2 C-4/250 @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+Switching mode to C-4/250 now...\n
+\n
+<!MODEM:CONTESTIA:250:4>\n
+---------------\n
+In C-4/250\n
+\n
+\n
+<RX>
+
+//
+// Macro # 7
+/$ 6 STBY 4 FLMSG @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+*\n
+*  Stand by for FLMSG traffic...\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 8
+/$ 7 NARP Checkin @>|
+<CLRTX>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+<TX>\n
+\n
+\n
+DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
+\n
+\n
+<RX>
+
+//
+// Macro # 9
+/$ 8 NARPNet 80m
+<QSY:3591.0:900]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+
+
+//
+// Macro # 10
+/$ 9 NARPNet 40m
+<QSY:7091.0:900]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+
+
+//
+// Macro # 11
+/$ 10 Cont-4/250
+<MODEM:Cont-4/250>
+
+//
+// Macro # 12
+/$ 11 TGL WF LOCK
+<LOCK:t>
+
+//
+// Macro # 13
+/$ 12 5) Ck-ins Call @>|
+<################################################################################>\n
+<# INITIAL CALL FOR CHECK-INS                                                   #>\n
+<# The CHECKINS.txt file should have the early check-ins in it already.         #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*** CHECK-INS ***\n
+\n
+Thank you for the early check-ins.  I ACK the following:\n
+\n
+\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
+\n
+If you do not see your check-in ACK'd above, please retransmit when\n
+I call for check-ins in a moment.\n
+\n
+To check-in to the net, pls use the following format:\n
+\n
+     DE CALLSIGN CALLSIGN / NAME / COUNTY / STATE / any traffic with precedence\n
+\n
+For example:\n
+\n
+     DE <MYCALL> <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
+\n
+If I had traffic, then instead of "NO TFC", I would indicate how many, and the\n
+precedence level, for example: "1 RRR".\n
+\n
+NOTE:\n
+- I will ACK check-ins as a group.\n
+- Dont repeat early check-ins which were ACK'd above.\n
+- Dont repeat your check-in unless you do not see it when I ACK new check-ins.\n
+\n
+Thank you.\n
+\n
+*\n
+*  Check-ins or relays call now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 14
+/$ 13 6) Ck-ins ACK @||
+<################################################################################>\n
+<# NCS ACK NEW REGULAR CHECKINS.                                                #>\n
+<# DOES NOT automatically TX.                                                   #>\n
+<# Delete "[PASTE ADDITIONAL CHECK-INS HERE]" from TX window and                #>\n
+<# paste the new check-ins you added to CHECKINS.txt in its place.              #>\n
+<# Just check-ins you just got. Leave them in the CHECKINGS.txt file for later. #>\n
+<# NOTE: This macro can be repeated as many times as necessary to call for more #>\n
+<# check-ins, pasteing in the check-ins to ACK from the last call.              #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on>\n
+\n
+de <MYCALL> NCS\n
+\n
+Thx for your check-ins. I ACK the following additional check-ins so far:\n
+\n
+[PASTE ADDITIONAL CHECK-INS HERE]\n
+\n
+*\n
+*  Any more check-ins or relays? Call now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 15
+/$ 14 7) End Chk-ins @||
+<################################################################################>\n
+<# END OF CHECKINS                                                              #>\n
+<# DOES NOT automatically TX.                                                   #>\n
+<# Paste attitional check-ins since the last call where specified below.        #>\n
+<# Or just type NOTHING HEARD if there were no responses to the last call.      #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on>\n
+\n
+de <MYCALL> NCS\n
+\n
+I ACK the following additional check-ins:\n
+\n
+[PASTE ADDITIONAL CHECK-INS HERE]\n
+\n
+Thank you for your check-ins. After the net traffic, I will call for\n
+late check-ins.\n
+\n
+break\n
+\n
+<RX>
+
+//
+// Macro # 16
+/$ 15 8) NCS TFC @>|
+<################################################################################>\n
+<# NCS TRAFFIC                                                                  #>\n
+<# The items you will TX should be listed in NCS_TFC.txt.                       #>\n
+<# This macro will remind them to be on right WF offset and will carefully      #>\n
+<# switch modes, transmitting the RSID mode change 3 times.                     #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*** NCS TRAFFIC ***\n
+\n
+All stations hold your transmissions.\n
+\n
+Stand by for the following traffic in about 30 sec.\n
+\n
+<FILE:MACRO_DIR/files/NCS_TFC.txt>\n
+\n
+I will send it in MFSK32 using FLAMP.\n
+\n
+Please:\n
+- Have FLAMP open to receive tab.\n
+- Make sure RxID is checked GREEN in the upper right of FLDIGI.\n
+- Do not transmit until I call for block fill reports.\n
+- Turn off squelch during traffic to help ensure good RX.\n
+- The following tune line should be at 900 on the WF:\n
+<!IDLE:1><!TUNE:5>\n
+\n
+Switching mode to MFSK32 now (RSID x3) ...\n
+\n
+\n
+<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32>\n
+---------------\n
+In MFSK32.\n
+\n
+*\n
+*  Stand by for FLAMP transmission...\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 17
+/$ 16 TX @>
+<TX>
+
+//
+// Macro # 18
+/$ 17 SW 2 MFSK32 @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+Switching mode to MFSK32 now...\n
+\n
+<!MODEM:MFSK32>\n
+---------------\n
+In MFSK32.\n
+\n
+\n
+<RX>
+
+//
+// Macro # 19
+/$ 18 STBY 4 FLAMP  @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+*\n
+*  Stand by for FLAMP traffic...\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 20
+/$ 19 AmR Checkin @>|
+<CLRTX>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+<TX>\n
+\n
+\n
+DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/NWOTW.txt> / NO TFC\n
+\n
+\n
+<RX>
+
+//
+// Macro # 21
+/$ 20 SEEN 80m
+<QSY:3585.0:900]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+
+
+//
+// Macro # 22
+/$ 21 SEEN 40m
+<QSY:7115.0:900]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+
+
+//
+// Macro # 23
+/$ 22 MFSK32
+<MODEM:MFSK32>
+
+//
+// Macro # 24
+/$ 23 WF 900
+<GOFREQ:900>
+
+//
+// Macro # 25
+/$ 24 9) NCS Blk Fills @>|
+<################################################################################>\n
+<# NCS BLOCK FILL REQUEST                                                       #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><MODEM:MFSK32><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*\n
+*  Stations missing blocks, please report now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 26
+/$ 25 10) NET TFC @>|
+<################################################################################>\n
+<# NET TRAFFIC                                                                  #>\n
+<# Gives instructions for sending traffic to participants.                      #>\n
+<# You should know from CHECKINS.txt which people have traffic.                 #>\n
+<# If no check-ins have traffic, you should skip the "TFC Call" button and go   #>\n
+<# right to the "More TFC?" button.                                             #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><MODEM:MFSK32><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*** NET TRAFFIC ***\n
+\n
+At this time I will call on each check-in with traffic one at a time.\n
+Pls hold transmissions until called by the NCS.  Thank you.\n
+\n
+Each operator sending traffic should:\n
+- Send your traffic,\n
+- Call for block fills 2 or 3 times (if applicable), and\n
+- Inform the NCS when you are finished and returning control back to net.\n
+\n
+Please do not change the mode from MFSK32. The NCS will switch modes\n
+when appropriate.\n
+\n
+break\n
+\n
+<RX>
+
+//
+// Macro # 27
+/$ 26 11) TFC CALL @||
+<################################################################################>\n
+<#                                                                              #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><MODEM:MFSK32>\n
+\n
+de <MYCALL> NCS\n
+\n
+*\n
+*  CALLSIGN, thank you for your traffic. Pls send your TFCLIST traffic now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 28
+/$ 27 12) More TFC? @>|
+<################################################################################>\n
+<# MORE TRAFFIC                                                                 #>\n
+<# This should be used instead of "TFC Call" when none of the check-ins         #>\n
+<# indicated they had traffic.  But it can also be used to ask for more traffic #>\n
+<# after all the check-ins with traffic have sent their traffic.  This allows   #>\n
+<# people who came in late or who forgot they had traffic at checkin to send    #>\n
+<# their traffic.  This macro button can be repeated to call for traffic as     #>\n
+<# many times as necessary.                                                     #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><MODEM:MFSK32><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*\n
+*  Does anyone have traffic for the net?  Call now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 29
+/$ 28 TX DE @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+\n
+<RX>
+
+//
+// Macro # 30
+/$ 29 SW 2 MFSK64 @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+Switching mode to MFSK64 now...\n
+\n
+<!MODEM:MFSK64>\n
+---------------\n
+In MFSK64.\n
+\n
+\n
+<RX>
+
+//
+// Macro # 31
+/$ 30 Block Fills?  @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+*\n
+*  Stations missing any blocks, please report now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 32
+/$ 31 
+
+
+//
+// Macro # 33
+/$ 32 AmRRON 80m
+<QSY:3588.0:900]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
+
+
+//
+// Macro # 34
+/$ 33 AmRRON 40m
+<QSY:7110.0:900]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>
+
+//
+// Macro # 35
+/$ 34 MFSK64
+<MODEM:MFSK64>
+
+//
+// Macro # 36
+/$ 35 
+
+
+//
+// Macro # 37
+/$ 36 13) Late Ck-ins @>|
+<################################################################################>\n
+<# LATE CHECK-INS                                                               #>\n
+<# Used to call for late check-ins. Carefully switches modes back to Cont-4/250 #>\n
+<# transmitting RSID mode change 3 times. New checkins should be added to       #>\n
+<# CHECKINS.txt.  The "Ck-ins ACK" macro button can be used to ACK the new      #>\n
+<# check-ins and call for more.                                                 #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><MODEM:MFSK32><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+All stations hold your transmissions.\n
+\n
+Switching mode to Cont-4/250 now (RSID x3) ...\n
+\n
+<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
+---------------\n
+In Cont-4/250\n
+\n
+*** LATE CHECK-INS ***\n
+\n
+We will take late/missed check-ins now, and then give the check-in roster.\n
+\n
+*\n
+*  Check-ins or relays call now.\n
+*\n
+\n
+\n
+<RX>
+
+//
+// Macro # 38
+/$ 37 14) Ck-in Roster @>|
+<################################################################################>\n
+<# FULL CHECK-IN ROSTER                                                         #>\n
+<# Just TX's the entire CHECKINS.txt file which should have all check-ins:      #>\n
+<# early, regular, and late.  You might want to take a sec and clean up the     #>\n
+<# file if needed.                                                              #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*** FULL CHECK-IN ROSTER ***\n
+\n
+All of tonight's check-ins:\n
+\n
+\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
+\n
+break\n
+\n
+<RX>
+
+//
+// Macro # 39
+/$ 38 15) Closing @>|
+<################################################################################>\n
+<# NET CLOSING                                                                  #>\n
+<################################################################################>\n
+<CLRTX><GOFREQ:900><LOCK:on><TXRSID:on><TX>\n
+\n
+de <MYCALL> NCS\n
+\n
+*** CLOSING ***\n
+\n
+This concludes the NARPNet Digital Net. Thank you for participating.\n
+\n
+More information about NARPNet comms is at\n
+\n
+     https://narpnet.org/comms\n
+\n
+CONTACT, CONNECT, COMMUNICATE, COORDINATE.\n
+\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
+\n
+\n
+de <MYCALL>\n
+\n
+The net is closed.\n
+------------------\n
+\n
+\n
+\n
+<RX>\n
+<@TUNE:2>
+
+//
+// Macro # 40
+/$ 39 
+
+
+//
+// Macro # 41
+/$ 40 
+
+
+//
+// Macro # 42
+/$ 41 
+
+
+//
+// Macro # 43
+/$ 42 Back 2 Net @>|
+<TX>\n
+\n
+\n
+de <MYCALL>   Passing control back to NCS.\n
+\n
+\n
+<RX>
+
+//
+// Macro # 44
+/$ 43 Edit NWOTW
+<################################################################################>\n
+<#                                                                              #>\n
+<################################################################################>\n
+<EXEC>notepad.exe "MACRO_DIR/files/NWOTW.txt"</EXEC>\n
+
+
+//
+// Macro # 45
+/$ 44 Edit NCS Files
+<################################################################################>\n
+<# EDIT NCS FILES                                                               #>\n
+<# Brings up the NCS files in a text editor.  Will be different for each system.#>\n
+<# There doesnt seem like a way to open multiple files at a time in Windows     #>\n
+<# Notepad.  I suggest Visual Studio Code on Windows, Mac, and Linux.  It is    #>\n
+<# free and a very good editor.  https://code.visualstudio.com/download         #>\n
+<################################################################################>\n
+<EXEC>"C:\Users\lobanz\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
+
+
+//
+// Macro # 46
+/$ 45 Test NCS Files
+<################################################################################>\n
+<# TEST NCS FILES                                                               #>\n
+<# Just dumps the context of the text files to the TX pane.  Gives an error if  #>\n
+<# a file could not be opened.                                                  #>\n
+<################################################################################>\n
+<CLRTX>\n
+--------------------------\n
+CHECKINS.txt:\n
+\n
+\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
+\n
+--------------------------\n
+NCS_TFC.txt:\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_TFC.txt>\n
+\n
+--------------------------\n
+AmCON_Level.txt:\n
+\n
+\n
+<FILE:MACRO_DIR/files/AmCON_Level.txt>\n
+\n
+--------------------------\n
+NCS_REMARKS.txt\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_REMARKS.txt>\n
+\n
+--------------------------\n
+NCS_CLOSING.txt\n
+\n
+\n
+<FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
+
+
+//
+// Macro # 47
+/$ 46 
+
+
+//
+// Macro # 48
+/$ 47 OP MACROS
+<MACROS:MACRO_DIR/NARPNet_OP.mdf>
