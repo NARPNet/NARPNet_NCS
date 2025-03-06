@@ -151,7 +151,7 @@ de <MYCALL>\n
 \n
 Switching mode to C-4/250 now...\n
 \n
-<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
+<!MODEM:CONTESTIA:250:4>\n
 ---------------\n
 In C-4/250\n
 \n
@@ -175,7 +175,9 @@ de <MYCALL>\n
 //
 // Macro # 8
 /$ 7 NARP Checkin @>|
-<TXRSID:off><CLRTX>\n
+<CLRTX>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
 <TX>\n
 \n
 \n
@@ -191,6 +193,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -200,6 +203,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -343,7 +347,7 @@ Please:\n
 Switching mode to MFSK32 now (RSID x3) ...\n
 \n
 \n
-<!GOFREQ:900><!MODEM:MFSK32><!GOFREQ:900><!MODEM:MFSK32><!GOFREQ:900><!MODEM:MFSK32><!GOFREQ:900>\n
+<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32>\n
 ---------------\n
 In MFSK32.\n
 \n
@@ -368,7 +372,7 @@ de <MYCALL>\n
 \n
 Switching mode to MFSK32 now...\n
 \n
-<!MODEM:MFSK32><!MODEM:MFSK32><!MODEM:MFSK32>\n
+<!MODEM:MFSK32>\n
 ---------------\n
 In MFSK32.\n
 \n
@@ -391,7 +395,9 @@ de <MYCALL>\n
 //
 // Macro # 20
 /$ 19 AmR Checkin @>|
-<TXRSID:off><CLRTX>\n
+<CLRTX>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
 <TX>\n
 \n
 \n
@@ -407,6 +413,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -416,6 +423,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -535,7 +543,7 @@ de <MYCALL>\n
 \n
 Switching mode to MFSK64 now...\n
 \n
-<!MODEM:MFSK64><!MODEM:MFSK64><!MODEM:MFSK64>\n
+<!MODEM:MFSK64>\n
 ---------------\n
 In MFSK64.\n
 \n
@@ -567,6 +575,7 @@ de <MYCALL>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -575,7 +584,8 @@ de <MYCALL>\n
 <QSY:7110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
-<TXRSID:off>
+<TXRSID:off>\n
+<RXRSID:on>
 
 //
 // Macro # 35
@@ -605,7 +615,7 @@ All stations hold your transmissions.\n
 \n
 Switching mode to Cont-4/250 now (RSID x3) ...\n
 \n
-<!GOFREQ:900><!MODEM:CONTESTIA:250:4><!GOFREQ:900><!MODEM:CONTESTIA:250:4><!GOFREQ:900><!MODEM:CONTESTIA:250:4><!GOFREQ:900>\n
+<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
 ---------------\n
 In Cont-4/250\n
 \n
