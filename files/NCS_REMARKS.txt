@@ -1,2 +1,0 @@
-I'm a grumpy NCS that doesn't have any remarks.
-Or maybe I just forgot to edit my NCS_REMARKS.txt file.
