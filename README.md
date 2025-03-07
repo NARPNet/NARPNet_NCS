@@ -1,4 +1,4 @@
-# NCS Macros for the NARPNet Digital Net
+# NCS and Operator Macros for the NARPNet Digital Net
 
 Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**.
 
