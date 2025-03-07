@@ -15,9 +15,9 @@ flow of the net.  The macros basically chop the flow of the net into little
 pieces, some of which are used multiple times in a row -- like asking if there
 are any more check-ins.
 
-There are also general purpose macros for participants that make it easy to tune 
-into the net, check-in, send traffic, etc.  These can be used in other digital 
-nets as well.
+Also included are general purpose macros for participants that make it easy to 
+tune into the net, check-in, send traffic, etc.  These can be used in other 
+digital nets as well.
 
 These macros were patterned after those distributed by AmRRON.  The net flow
 defined in the NARPNet NCS macros was patterned after both AmRRON and SEEN nets.
