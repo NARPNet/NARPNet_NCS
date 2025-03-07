@@ -8,7 +8,9 @@ There are also **[Video Instructions](https://github.com/NARPNet/NARPNet_NCS/wik
 
 These macros are intended to make it as simple as practical for NCS's to run the
 NARPNet Digital Net.  Making it simple is helpful in promoting more NCS's to
-help shoulder the load of running a reliable weekly net.
+help shoulder the load of running a reliable weekly net.  There are also general
+macros for participants that make it easy to tune into the net, check-in, send 
+traffic, etc.  These can be used in other digital nets as well.
 
 A macro file for the net exists to reduce typing and to define a standardized
 flow of the net.  The macros basically chop the flow of the net into little
