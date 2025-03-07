@@ -4,6 +4,12 @@ Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**.
 
 There are also **[Video Instructions](https://github.com/NARPNet/NARPNet_NCS/wiki/5.-Video-Instructions)**.
 
+Net Schedule:
+- Monday evenings at 7:00 PM CST (01:00Z).
+- 3.591 USB @ 900 on the waterfall.
+- FLDIGI starting in Contestia 4/250, MFSK32 for traffic.
+- AmRRON-style net but we don't use the NWOTW.
+
 ## Overview
 
 These macros are intended to make it as simple as practical for NCS's to run the
