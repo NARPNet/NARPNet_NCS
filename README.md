@@ -1,8 +1,8 @@
-# NCS Macros for the NARPNet Digital Net.
+# NCS Macros for the NARPNet Digital Net
 
 Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**
 
-Now with **[Video Instructions](https://github.com/NARPNet/NARPNet_NCS/wiki/5.-Video-Instructions)**
+There are also **[Video Instructions](https://github.com/NARPNet/NARPNet_NCS/wiki/5.-Video-Instructions)**
 
 ## Overview
 
@@ -40,8 +40,7 @@ Discussions or file Issues, you must have a GitHub account.
 
 You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
-under Assets and ignore the source code zips.  Also see the [preliminary
-installation instructions, below](#preliminary-installation-instructions).
+under Assets and ignore the source code zips.
 
 Please report your experiences in the GitHub Discussion area or via email to
 lobanz@protonmail.com.  Thanks!
