@@ -349,55 +349,12 @@ de <MYCALL>   Passing control back to NCS.\n
 
 //
 // Macro # 45
-/$ 44 Edit NCS Files
-<################################################################################>\n
-<# EDIT NCS FILES                                                               #>\n
-<# Brings up the NCS files in a text editor.  Will be different for each system.#>\n
-<# There doesnt seem like a way to open multiple files at a time in Windows     #>\n
-<# Notepad.  I suggest Visual Studio Code on Windows, Mac, and Linux.  It is    #>\n
-<# free and a very good editor.  https://code.visualstudio.com/download         #>\n
-<################################################################################>\n
-<EXEC>"C:\Users\lobanz\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
+/$ 44 
 
 
 //
 // Macro # 46
-/$ 45 Test NCS Files
-<################################################################################>\n
-<# TEST NCS FILES                                                               #>\n
-<# Just dumps the context of the text files to the TX pane.  Gives an error if  #>\n
-<# a file could not be opened.                                                  #>\n
-<################################################################################>\n
-<CLRTX>\n
---------------------------\n
-CHECKINS.txt:\n
-\n
-\n
-<FILE:MACRO_DIR/files/CHECKINS.txt>\n
-\n
---------------------------\n
-NCS_TFC.txt:\n
-\n
-\n
-<FILE:MACRO_DIR/files/NCS_TFC.txt>\n
-\n
---------------------------\n
-AmCON_Level.txt:\n
-\n
-\n
-<FILE:MACRO_DIR/files/AmCON_Level.txt>\n
-\n
---------------------------\n
-NCS_REMARKS.txt\n
-\n
-\n
-<FILE:MACRO_DIR/files/NCS_REMARKS.txt>\n
-\n
---------------------------\n
-NCS_CLOSING.txt\n
-\n
-\n
-<FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
+/$ 45 
 
 
 //
