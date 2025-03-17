@@ -402,7 +402,7 @@ de <MYCALL>\n
 <TX>\n
 \n
 \n
-DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/NWOTW.txt> / NO TFC\n
+DE <MYCALL>  <MYCALL> / <MYNAME> / <MYST> / <FILE:MACRO_DIR/files/NWOTW.txt> / NO TFC\n
 \n
 \n
 <RX>
