@@ -1,0 +1,247 @@
+//fldigi macro definition file extended
+// This file defines the macro structure(s) for the digital modem program, fldigi
+// It also serves as a basis for any macros that are written by the user
+//
+// The top line of this file should always be the first line in every macro 
+// definition file (.mdf) for the fldigi program to recognize it as such.
+//
+
+//
+// Macro # 1
+/$ 0 
+
+
+//
+// Macro # 2
+/$ 1 
+
+
+//
+// Macro # 3
+/$ 2 
+
+
+//
+// Macro # 4
+/$ 3 
+
+
+//
+// Macro # 5
+/$ 4 
+
+
+//
+// Macro # 6
+/$ 5 
+
+
+//
+// Macro # 7
+/$ 6 
+
+
+//
+// Macro # 8
+/$ 7 
+
+
+//
+// Macro # 9
+/$ 8 
+
+
+//
+// Macro # 10
+/$ 9 
+
+
+//
+// Macro # 11
+/$ 10 
+
+
+//
+// Macro # 12
+/$ 11 NCS MACROS
+<MACROS:MACRO_DIR/NARPNet_NCS.mdf>
+
+//
+// Macro # 13
+/$ 12 
+
+
+//
+// Macro # 14
+/$ 13 
+
+
+//
+// Macro # 15
+/$ 14 
+
+
+//
+// Macro # 16
+/$ 15 
+
+
+//
+// Macro # 17
+/$ 16 
+
+
+//
+// Macro # 18
+/$ 17 
+
+
+//
+// Macro # 19
+/$ 18 
+
+
+//
+// Macro # 20
+/$ 19 
+
+
+//
+// Macro # 21
+/$ 20 
+
+
+//
+// Macro # 22
+/$ 21 
+
+
+//
+// Macro # 23
+/$ 22 
+
+
+//
+// Macro # 24
+/$ 23 OP MACROS
+<MACROS:MACRO_DIR/NARPNet_OP.mdf>
+
+//
+// Macro # 25
+/$ 24 
+
+
+//
+// Macro # 26
+/$ 25 
+
+
+//
+// Macro # 27
+/$ 26 
+
+
+//
+// Macro # 28
+/$ 27 
+
+
+//
+// Macro # 29
+/$ 28 
+
+
+//
+// Macro # 30
+/$ 29 
+
+
+//
+// Macro # 31
+/$ 30 
+
+
+//
+// Macro # 32
+/$ 31 
+
+
+//
+// Macro # 33
+/$ 32 
+
+
+//
+// Macro # 34
+/$ 33 
+
+
+//
+// Macro # 35
+/$ 34 
+
+
+//
+// Macro # 36
+/$ 35 NET MACROS
+<MACROS:MACRO_DIR/NARPNet_NET.mdf>
+
+//
+// Macro # 37
+/$ 36 
+
+
+//
+// Macro # 38
+/$ 37 
+
+
+//
+// Macro # 39
+/$ 38 
+
+
+//
+// Macro # 40
+/$ 39 
+
+
+//
+// Macro # 41
+/$ 40 
+
+
+//
+// Macro # 42
+/$ 41 
+
+
+//
+// Macro # 43
+/$ 42 
+
+
+//
+// Macro # 44
+/$ 43 
+
+
+//
+// Macro # 45
+/$ 44 
+
+
+//
+// Macro # 46
+/$ 45 
+
+
+//
+// Macro # 47
+/$ 46 
+
+
+//
+// Macro # 48
+/$ 47 @-5> PERSONAL
+

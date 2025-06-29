@@ -8,8 +8,13 @@
 
 //
 // Macro # 1
-/$ 0 
-
+/$ 0 NUTHIN @>|
+<TX>\n
+\n
+de <MYCALL>: NOTHING HEARD\n
+\n
+\n
+<RX>
 
 //
 // Macro # 2
@@ -33,29 +38,31 @@
 
 //
 // Macro # 6
-/$ 5 SW 2 C-4/250 @>|
+/$ 5 SW THOR22 @>|
 <TX>\n
 \n
 de <MYCALL>\n
 \n
-Switching mode to C-4/250 now...\n
-\n
-<!MODEM:CONTESTIA:250:4>\n
----------------\n
-In C-4/250\n
+Switching mode to THOR22 now\n
+<!MODEM:THOR22>\n
+-----\n
+In THOR22\n
 \n
 \n
 <RX>
 
 //
 // Macro # 7
-/$ 6 STBY 4 FLMSG @>|
+/$ 6 StbyFlamp3 @>|
 <TX>\n
 \n
 de <MYCALL>\n
 \n
 *\n
-*  Stand by for FLMSG traffic...\n
+*  Stand by for FLAMP traffic\n
+*  I will call for block fills max 3 times, more after net\n
+*  10 sec dead air = nothing heard\n
+*  No confirmations please\n
 *\n
 \n
 \n
@@ -63,52 +70,47 @@ de <MYCALL>\n
 
 //
 // Macro # 8
-/$ 7 NARP Checkin @>|
-<CLRTX>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 7 StbyFlmsg @>|
 <TX>\n
 \n
+de <MYCALL>\n
 \n
-DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
+*\n
+*  Stand by for FLMSG traffic\n
+*\n
 \n
 \n
 <RX>
 
 //
 // Macro # 9
-/$ 8 NARPNet 80m
-<QSY:3591.0:900]>\n
-<MODEM:Cont-4/250>\n
-<LOCK:on>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 8 
 
 
 //
 // Macro # 10
-/$ 9 NARPNet 40m
-<QSY:7091.0:900]>\n
-<MODEM:Cont-4/250>\n
-<LOCK:on>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 9 
 
 
 //
 // Macro # 11
-/$ 10 Cont-4/250
-<MODEM:Cont-4/250>
+/$ 10 THOR22
+<MODEM:THOR22>
 
 //
 // Macro # 12
-/$ 11 TGL WF LOCK
-<LOCK:t>
+/$ 11 NCS MACROS
+<MACROS:MACRO_DIR/NARPNet_NCS.mdf>
 
 //
 // Macro # 13
-/$ 12 
-
+/$ 12 DUP @>|
+<TX>\n
+\n
+de <MYCALL>: DUP, please try again\n
+\n
+\n
+<RX>
 
 //
 // Macro # 14
@@ -132,29 +134,28 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 
 //
 // Macro # 18
-/$ 17 SW 2 MFSK32 @>|
+/$ 17 SW THOR32 @>|
 <TX>\n
 \n
 de <MYCALL>\n
 \n
-Switching mode to MFSK32 now...\n
-\n
-<!MODEM:MFSK32>\n
----------------\n
-In MFSK32.\n
+Switching mode to THOR32 now\n
+<!MODEM:THOR32>\n
+-----\n
+In THOR32\n
 \n
 \n
 <RX>
 
 //
 // Macro # 19
-/$ 18 STBY 4 FLAMP  @>|
+/$ 18 StbyFlamp @>|
 <TX>\n
 \n
 de <MYCALL>\n
 \n
 *\n
-*  Stand by for FLAMP traffic...\n
+*  Stand by for FLAMP traffic\n
 *\n
 \n
 \n
@@ -162,47 +163,37 @@ de <MYCALL>\n
 
 //
 // Macro # 20
-/$ 19 AmR Checkin @>|
-<CLRTX>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 19 StbyTfc @>|
 <TX>\n
 \n
+de <MYCALL>\n
 \n
-DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/NWOTW.txt> / NO TFC\n
+*\n
+*  Stand by for traffic\n
+*\n
 \n
 \n
 <RX>
 
 //
 // Macro # 21
-/$ 20 SEEN 80m
-<QSY:3585.0:900]>\n
-<MODEM:Cont-4/250>\n
-<LOCK:on>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 20 
 
 
 //
 // Macro # 22
-/$ 21 SEEN 40m
-<QSY:7115.0:900]>\n
-<MODEM:Cont-4/250>\n
-<LOCK:on>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 21 
 
 
 //
 // Macro # 23
-/$ 22 MFSK32
-<MODEM:MFSK32>
+/$ 22 THOR32
+<MODEM:THOR32>
 
 //
 // Macro # 24
-/$ 23 WF 900
-<GOFREQ:900>
+/$ 23 @-5> OP MACROS
+
 
 //
 // Macro # 25
@@ -226,7 +217,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files/
 
 //
 // Macro # 29
-/$ 28 TX DE @>|
+/$ 28 TX de @>|
 <TX>\n
 \n
 de <MYCALL>\n
@@ -236,28 +227,28 @@ de <MYCALL>\n
 
 //
 // Macro # 30
-/$ 29 SW 2 MFSK64 @>|
+/$ 29 SW C4/250 @>|
 <TX>\n
 \n
 de <MYCALL>\n
 \n
-Switching mode to MFSK64 now...\n
+Switching mode to C-4/250 now\n
+<!MODEM:CONTESTIA:250:4>\n
+-----\n
+In C-4/250\n
 \n
-<!MODEM:MFSK64>\n
----------------\n
-In MFSK64.\n
 \n
 <RX>
 
 //
 // Macro # 31
-/$ 30 Block Fills?  @>|
+/$ 30 Blk Fills? @>|
 <TX>\n
 \n
 de <MYCALL>\n
 \n
 *\n
-*  Stations missing any blocks, please report now.\n
+*  Missing blocks? Please report now\n
 *\n
 \n
 \n
@@ -270,32 +261,23 @@ de <MYCALL>\n
 
 //
 // Macro # 33
-/$ 32 AmRRON 80m
-<QSY:3588.0:900]>\n
-<MODEM:Cont-4/250>\n
-<LOCK:on>\n
-<TXRSID:off>\n
-<RXRSID:on>\n
+/$ 32 
 
 
 //
 // Macro # 34
-/$ 33 AmRRON 40m
-<QSY:7110.0:900]>\n
-<MODEM:Cont-4/250>\n
-<LOCK:on>\n
-<TXRSID:off>\n
-<RXRSID:on>
+/$ 33 
+
 
 //
 // Macro # 35
-/$ 34 MFSK64
-<MODEM:MFSK64>
+/$ 34 Cont-4/250
+<MODEM:Cont-4/250>
 
 //
 // Macro # 36
-/$ 35 
-
+/$ 35 NET MACROS
+<MACROS:MACRO_DIR/NARPNet_NET.mdf>
 
 //
 // Macro # 37
@@ -319,32 +301,53 @@ de <MYCALL>\n
 
 //
 // Macro # 41
-/$ 40 
-
+/$ 40 de CALL: @||
+\n
+\n
+de <MYCALL>: \n
+\n
+\n
+<RX>
 
 //
 // Macro # 42
-/$ 41 
-
+/$ 41 SW MFSK32 @>|
+<TX>\n
+\n
+de <MYCALL>\n
+\n
+Switching mode to MFSK32 now\n
+<!MODEM:MFSK32>\n
+-----\n
+In MFSK32\n
+\n
+\n
+<RX>
 
 //
 // Macro # 43
-/$ 42 Back 2 Net @>|
+/$ 42 BlkFil Short @>|
 <TX>\n
 \n
-\n
-de <MYCALL>   Passing control back to NCS.\n
+de <MYCALL>: Need blocks? Report now\n
 \n
 \n
 <RX>
 
 //
 // Macro # 44
-/$ 43 Edit NWOTW
-<################################################################################>\n
-<#                                                                              #>\n
-<################################################################################>\n
-<EXEC>notepad.exe "MACRO_DIR/files/NWOTW.txt"</EXEC>\n
+/$ 43 Back 2 Net @>|
+<TX>\n
+\n
+\n
+de <MYCALL>\n
+\n
+*\n
+*  Passing control back to NCS\n
+*\n
+\n
+\n
+<RX>\n
 
 
 //
@@ -359,10 +362,10 @@ de <MYCALL>   Passing control back to NCS.\n
 
 //
 // Macro # 47
-/$ 46 
-
+/$ 46 MFSK32
+<MODEM:MFSK32>
 
 //
 // Macro # 48
-/$ 47 NCS MACROS
-<MACROS:MACRO_DIR/NARPNet_NCS.mdf>
+/$ 47 PERSONAL
+<MACROS:MACRO_DIR/PERSONAL.mdf>
