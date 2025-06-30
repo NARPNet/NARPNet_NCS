@@ -57,7 +57,7 @@ or via JS8Call (@NARPNET, >=1900 WF)\n
 <# FIRST NET START                                                              #>\n
 <# This is short to allow emergency traffic to break in.                        #>\n
 <################################################################################>\n
-<CLRTX><TXRSID:on><TX>\n
+<CLRTX><TXRSID:on><NRSID:2><TX>\n
 \n
 \n
 QST NARPNet de <MYCALL> NCS\n
