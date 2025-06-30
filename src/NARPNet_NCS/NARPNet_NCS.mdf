@@ -627,6 +627,11 @@ de <MYCALL> NCS\n
 \n
 *** LATE CHECK-INS ***\n
 \n
+Switching mode to THOR22 now\n
+<!MODEM:THOR22>\n
+-----\n
+In THOR22\n
+\n
 \n
 We will take late/missed check-ins now.\n
 \n
