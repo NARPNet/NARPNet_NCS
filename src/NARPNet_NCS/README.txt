@@ -9,6 +9,8 @@ Documentation is in the GitHub Wiki:
 Installation
 ------------
 
+(To upgrade the macros to a different version, see next section.)
+
 Please see the documentation link above for detailed written and video 
 instructions on installation and use.
 
@@ -21,6 +23,26 @@ The basic installation is as follows:
 IMPORTANT: Don't press the Edit macro buttons until you have configured them
 according to the documentation referenced above.  Otherwise FLDIGI will crash.
 
+
+Upgrading
+---------
+
+To upgrade the macros to a different version:
+- Take note of your text editor path in your existing Edit macro buttons.
+- Close FLDIGI.
+- Rename the NARPNet_NCS folder in your FLDIGI macros dir to a different 
+  name such as "NARPNet_NCS.old".
+- Follow the installation process above, including running the setup script.  
+- Copy all the files from the "files" dir of the old macros dir to the "files" 
+  dir in the new macros dir, overwriting the new files with the old ones.
+- Open FLDIGI.
+- In FLDIGI, edit each of the edit button macros and correct your text editor 
+  path. 
+  - There is an edit button on each macro page except Personal.  
+  - NOTE that you have to save each macro file you edit BEFORE switching 
+    pages or FLDIGI will lose your changes.
+- Keep the old macros dir around until you feel confident that you have 
+  everything you need from it.
 
 Overview
 --------
