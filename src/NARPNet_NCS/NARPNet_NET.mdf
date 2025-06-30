@@ -10,7 +10,7 @@
 // Macro # 1
 /$ 0 NARPNet 80m
 <QSY:3591.0:900]>\n
-<MODEM:Cont-4/250>\n
+<MODEM:THOR22>\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>
@@ -107,7 +107,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 // Macro # 13
 /$ 12 NARPNet 40m
 <QSY:7091.0:900]>\n
-<MODEM:Cont-4/250>\n
+<MODEM:THOR22>\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
