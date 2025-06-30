@@ -25,7 +25,6 @@ Early check-ins welcome.\n
 >>>\n
 \n
 \n
-\n
 <RX>\n
 
 
@@ -96,7 +95,7 @@ Good evening!\n
 Net Control Station (NCS):\n
 - Name: <MYNAME>, <MYCALL>\n
 - Location: <MYCOUNTY> county, <MYST>\n
-- Ver: 1.0-alpha\n
+- Macros: 1.0-alpha\n
 \n
 Please:\n
 - Turn OFF any beacons, etc\n
@@ -114,7 +113,7 @@ can be found at:\n
 \n
      https://narpnet.org/comms/digital/hf/\n
 \n
-This info will be provided here should a widespread internet outage occur.\n
+More info will be provided here should a widespread internet outage occur.\n
 \n
 \n
 NCS Remarks:\n
@@ -181,10 +180,11 @@ de <MYCALL> NCS\n
 //
 // Macro # 9
 /$ 8 Cont Warn @>|
-<TXRSID:on><MODEM:CONTESTIA:250:4><TX>\n
+<TXRSID:on><MODEM:CONTESTIA:250:4><NRSID:2><TX>\n
 \n
 <<<\n
 QST NARPNet de <MYCALL> NCS\n
+\n
 LEGACY CONTESTIA NOTICE\n
 \n
 The net will now start in THOR22.\n
@@ -229,7 +229,7 @@ de <MYCALL> NCS\n
 *** CHECK-INS ***\n
 \n
 \n
-Thank you for the early check-ins.  I ACK the following:\n
+I ACK these early check-ins:\n
 \n
 \n
 <FILE:MACRO_DIR/files/CHECKINS.txt>\n
@@ -243,7 +243,7 @@ To relay a check-in, just prefix their check-in with "de YOURCALL RELAY"\n
 \n
 NOTE:\n
 - I will ACK check-ins in batches\n
-- Pls dont repeat check-ins already ACK'd\n
+- Pls dont repeat check-in if already ACK'd\n
 - If you RX a check-in that the NCS doesn't ACK, feel free to relay it\n
 \n
 Thank you.\n
@@ -275,6 +275,7 @@ I ACK these new check-ins:\n
 \n
 [PASTE ADDITIONAL CHECK-INS HERE]\n
 \n
+\n
 *\n
 *  Any more check-ins or relays? Call now\n
 *\n
@@ -298,6 +299,7 @@ de <MYCALL> NCS\n
 I ACK these new check-ins:\n
 \n
 [PASTE ADDITIONAL CHECK-INS HERE]\n
+\n
 \n
 Before net closing, I will call for late check-ins.\n
 \n
@@ -331,11 +333,13 @@ I will send the following traffic via FLAMP:\n
 \n
 <FILE:MACRO_DIR/files/NCS_TFC.txt>\n
 \n
+\n
 Please:\n
 - Do not transmit until I call for block fill reports\n
 - I will call for fills MAX THREE times, more fills after the net\n
 - If you need more than TEN blocks, please get them after the net\n
 - 10 sec dead air = nothing heard\n
+\n
 \n
 *\n
 *  Stand by for FLAMP traffic...\n
@@ -536,7 +540,7 @@ In C-4/250\n
 de <MYCALL> NCS\n
 \n
 *\n
-*  Missing blocks? Please report now\n
+*  Missing blocks? Pls report now\n
 *\n
 \n
 \n
