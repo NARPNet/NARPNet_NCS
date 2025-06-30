@@ -350,8 +350,13 @@ de <MYCALL>\n
 
 //
 // Macro # 39
-/$ 38 
-
+/$ 38 Got it! @||
+\n
+\n
+de <MYCALL>: CALL, Got it! Thx!\n
+\n
+\n
+<RX>
 
 //
 // Macro # 40
