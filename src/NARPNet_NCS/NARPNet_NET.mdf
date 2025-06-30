@@ -9,6 +9,16 @@
 //
 // Macro # 1
 /$ 0 NARPNet 80m
+<# NARPNet Digital Net 80m #>\n
+<# URL: https://narpnet.org/comms/digital/hf/ #>\n
+<# Freq: 3591 #>\n
+<# WF: 900 #>\n
+<# Mode: THOR22 #>\n
+<# Days: Mon #>\n
+<# Weeks: ALL #>\n
+<# Time: 7:00 PM Local, Central #>\n
+<# Season: ALL #>\n
+<LOCK:off>\n
 <QSY:3591.0:900]>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
@@ -18,6 +28,15 @@
 //
 // Macro # 2
 /$ 1 AmRRON 80m
+<# AmRRON Persistent Presence 80m #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3588 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:3588.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -28,6 +47,15 @@
 //
 // Macro # 3
 /$ 2 VA TAPRN 80m
+<# VA TAPRN/AmRRON Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3588 #>\n
+<# WF: 1000 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Mon #>\n
+<# Weeks: ALL #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: Winter #>\n
 <QSY:3588.0:1000]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -38,6 +66,15 @@
 //
 // Macro # 4
 /$ 3 NC TAPRN 80m
+<# NC Granville SE TAPRN/AmRRON #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3588 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: Winter #>\n
 <QSY:3588.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -48,6 +85,15 @@
 //
 // Macro # 5
 /$ 4 RAT Pack 40m
+<# RAT Pack (Radio Assistance Team) #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 7115 #>\n
+<# WF: 800 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Thu #>\n
+<# Weeks: ALL #>\n
+<# Time: 8:30 PM Local (Central) #>\n
+<# Season: ALL #>\n
 <QSY:7115.0:800]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -57,6 +103,15 @@
 //
 // Macro # 6
 /$ 5 AHRN 80m
+<# AHRN Peristent Presence (80m)  #>\n
+<# URL: https://americancontingency.com/ #>\n
+<# Freq: 3564 #>\n
+<# WF: 800 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:3564.0:800]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -66,7 +121,21 @@
 
 //
 // Macro # 7
-/$ 6 
+/$ 6 AL Net 80m
+<# Alabama HF Digital Net #>\n
+<# URL: https://tclarc.org/area-nets/ #>\n
+<# Freq: 3570 #>\n
+<# WF: 1500? #>\n
+<# Mode: OLIVIA-8/1K or PSK-125R ? #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 20:30Z (2:30 PM CST) #>\n
+<# Season: ??? #>\n
+<QSY:3570.0:1500]>\n
+<MODEM:OLIVIA-8/1K>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>\n
 
 
 //
@@ -106,6 +175,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 //
 // Macro # 13
 /$ 12 NARPNet 40m
+<# NARPNet Digital 40m #>\n
+<# URL: https://narpnet.org/comms/digital/hf/ #>\n
+<# Freq: 7091 #>\n
+<# WF: 900 #>\n
+<# Mode: THOR22 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:7091.0:900]>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
@@ -116,6 +194,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 //
 // Macro # 14
 /$ 13 AmRRON 40m
+<# AmRRON Persistent Presence 40m #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 7110 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:7110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -125,6 +212,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 //
 // Macro # 15
 /$ 14 VA TARPN 40m
+<# VA TAPRN/AmRRON Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 7110 #>\n
+<# WF: 1000 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Mon #>\n
+<# Weeks: ALL #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: Summer #>\n
 <QSY:7110.0:1000]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -134,8 +230,17 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 
 //
 // Macro # 16
-/$ 15 NC TAPRN 80m
-<QSY:3588.0:900]>\n
+/$ 15 NC TAPRN 40m
+<# NC Granville SE TAPRN/AmRRON #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 7110 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: Summer #>\n
+<QSY:7110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
@@ -145,6 +250,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 //
 // Macro # 17
 /$ 16 Prep Net 80m
+<# PrepperNet Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3595 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 9:00 PM Eastern #>\n
+<# Season: Winter #>\n
 <QSY:3595.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -155,6 +269,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 //
 // Macro # 18
 /$ 17 AHRN 40m
+<# AHRN Peristent Presence (40m)  #>\n
+<# URL: https://americancontingency.com/ #>\n
+<# Freq: 7115 #>\n
+<# WF: 800 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:7115.0:800]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -164,8 +287,21 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 
 //
 // Macro # 19
-/$ 18 
-
+/$ 18 AL Net 40m
+<# Alabama HF Digital Net #>\n
+<# URL: https://tclarc.org/area-nets/ #>\n
+<# Freq: 7110 #>\n
+<# WF: 1500? #>\n
+<# Mode: OLIVIA-8/1K or  PSK-125R ? #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 20:30Z (2:30 PM CST) #>\n
+<# Season: ??? #>\n
+<QSY:7110:1500]>\n
+<MODEM:OLIVIA-8/1K>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>
 
 //
 // Macro # 20
@@ -204,6 +340,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 25
 /$ 24 SEEN 80m
+<# SEEN Digital Net 80m #>\n
+<# URL: https://www.senetwork.us/ #>\n
+<# Freq: 3585 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Wed #>\n
+<# Weeks: ALL #>\n
+<# Time: 7:00 PM Local, Central #>\n
+<# Season: ALL #>\n
 <QSY:3585.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -214,6 +359,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 26
 /$ 25 AmRRON 20m
+<# AmRRON Persistent Presence 40m #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 14110 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:14110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -224,6 +378,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 27
 /$ 26 FL TAPRN 80m
+<# FL TAPRN/AmRRON Pasco Co #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3588 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Wed #>\n
+<# Weeks: 1,3,5 #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: ALL #>\n
 <QSY:3588.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -234,6 +397,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 28
 /$ 27 OH TAPRN 80m
+<# OH TAPRN/AmRRON Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3588 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: Winter #>\n
 <QSY:3588.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -244,6 +416,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 29
 /$ 28 Prep Net 40m
+<# PrepperNet Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 7090 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 9:00 PM Eastern #>\n
+<# Season: Summer #>\n
 <QSY:7090.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -253,8 +434,21 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 
 //
 // Macro # 30
-/$ 29 
-
+/$ 29 AHRN 20m
+<# AHRN Peristent Presence (20m)  #>\n
+<# URL: https://americancontingency.com/ #>\n
+<# Freq: 14115 #>\n
+<# WF: 800 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
+<QSY:14115.0:800]>\n
+<MODEM:Cont-4/250>\n
+<LOCK:on>\n
+<TXRSID:off>\n
+<RXRSID:on>
 
 //
 // Macro # 31
@@ -298,6 +492,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 37
 /$ 36 SEEN 40m
+<# SEEN Digital 40m #>\n
+<# URL: https://www.senetwork.us/ #>\n
+<# Freq: 7115 #>\n
+<# WF: N/A #>\n
+<# Mode: N/A #>\n
+<# Days: N/A #>\n
+<# Weeks: N/A #>\n
+<# Time: N/A #>\n
+<# Season: N/A #>\n
 <QSY:7115.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -308,15 +511,33 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 38
 /$ 37 ERIN 40m
+<# ERIN - Eastern Region Information Net #>\n
+<# URL: https://unchainedpreppers.com/forum/radio/ #>\n
+<# Freq: 7110 #>\n
+<# WF: 1000 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Tues #>\n
+<# Weeks: ALL #>\n
+<# Time: 7:00 PM Local (Eastern) #>\n
+<# Season: N/A #>\n
 <QSY:7110.0:1000]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>a
+<RXRSID:on>
 
 //
 // Macro # 39
 /$ 38 NY TAPRN 80m
+<# NY TAPRN/AmRRON Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 3588 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Wed #>\n
+<# Weeks: 2,4 #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: ALL #>\n
 <QSY:3588.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -327,6 +548,15 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 40
 /$ 39 OH TAPRN 40m
+<# OH TAPRN/AmRRON Digital Net #>\n
+<# URL: https://amrron.com/ #>\n
+<# Freq: 7110 #>\n
+<# WF: 900 #>\n
+<# Mode: Cont-4/250 #>\n
+<# Days: Sun #>\n
+<# Weeks: ALL #>\n
+<# Time: 01:00Z (7:00 PM CST) #>\n
+<# Season: Summer #>\n
 <QSY:7110.0:900]>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
