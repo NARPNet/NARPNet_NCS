@@ -203,7 +203,7 @@ Switching to THOR22 now.\n
 //
 // Macro # 11
 /$ 10 NARPNet 80m
-<QSY:3591.0:900]>\n
+<QSY:3591.0:900>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
 <TXRSID:off>\n
@@ -405,7 +405,7 @@ de <MYCALL> NCS: NOTHING HEARD\n
 //
 // Macro # 23
 /$ 22 NARPNet 40m
-<QSY:7091.0:900]>\n
+<QSY:7091.0:900>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
 <TXRSID:off>\n
