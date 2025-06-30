@@ -743,8 +743,13 @@ de <MYCALL> NCS: Need blocks? Report now\n
 
 //
 // Macro # 44
-/$ 43 
-
+/$ 43 2 Many Blks @||
+\n
+\n
+de <MYCALL> NCS: CALL, Too many blocks.  Will get you after the net.\n
+\n
+\n
+<RX>
 
 //
 // Macro # 45

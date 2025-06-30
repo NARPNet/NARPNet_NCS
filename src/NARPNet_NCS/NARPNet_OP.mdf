@@ -307,8 +307,13 @@ de <MYCALL>\n
 
 //
 // Macro # 32
-/$ 31 
-
+/$ 31 2 Many Blks @||
+\n
+\n
+de <MYCALL>: CALL, Too many blocks.  Will get you after the net.\n
+\n
+\n
+<RX>
 
 //
 // Macro # 33
