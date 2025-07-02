@@ -9,6 +9,7 @@
 //
 // Macro # 1
 /$ 0 NARP CkIn @>|
+<AFC:off>\n
 <CLRTX>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
@@ -105,7 +106,8 @@ de <MYCALL>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 11
@@ -120,6 +122,7 @@ de <MYCALL>\n
 //
 // Macro # 13
 /$ 12 SEEN CkIn @>|
+<AFC:off>\n
 <CLRTX>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
@@ -220,6 +223,7 @@ de <MYCALL>\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -235,6 +239,7 @@ de <MYCALL>\n
 //
 // Macro # 25
 /$ 24 AmR CkIn @>|
+<AFC:off>\n
 <CLRTX>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
@@ -327,7 +332,8 @@ de <MYCALL>: CALL, Too many blocks.  Will get you after the net.\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 35
@@ -430,7 +436,8 @@ de <MYCALL>\n
 <LOCK:off>\n
 <GOFREQ:900>\n
 <LOCK:on>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 47

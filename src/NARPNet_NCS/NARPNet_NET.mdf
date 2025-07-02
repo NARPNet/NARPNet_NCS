@@ -23,7 +23,8 @@
 <MODEM:THOR22>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 2
@@ -42,6 +43,7 @@
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -61,6 +63,7 @@
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -80,6 +83,7 @@
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -117,6 +121,7 @@
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -136,6 +141,7 @@
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -156,6 +162,7 @@
 //
 // Macro # 11
 /$ 10 NARP CkIn @>|
+<AFC:off>\n
 <CLRTX>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
@@ -189,6 +196,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -207,7 +215,8 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 15
@@ -225,7 +234,8 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>a\n
+<RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -264,6 +274,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -283,6 +294,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -301,7 +313,8 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <MODEM:OLIVIA-8/1K>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 20
@@ -321,6 +334,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 //
 // Macro # 23
 /$ 22 SEEN CkIn @>|
+<AFC:off>\n
 <CLRTX>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
@@ -354,6 +368,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -373,6 +388,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -392,6 +408,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -430,6 +447,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -448,7 +466,8 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 31
@@ -473,6 +492,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 //
 // Macro # 35
 /$ 34 AmR CkIn @>|
+<AFC:off>\n
 <CLRTX>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
@@ -506,6 +526,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
@@ -524,7 +545,8 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
 <TXRSID:off>\n
-<RXRSID:on>
+<RXRSID:on>\n
+<AFC:off>
 
 //
 // Macro # 39
@@ -543,6 +565,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //

@@ -14,7 +14,7 @@
 <# Starts and ends with an attention getting 2 sec tune tone.  Can also be used #>\n
 <# to determine if your radio is tuned properly for SW radio RX-only listeners. #>\n
 <################################################################################>\n
-<CLRTX><TXRSID:on><TUNE:3><NRSID:2><TX>\n
+<AFC:off><CLRTX><TXRSID:on><TUNE:3><NRSID:2><TX>\n
 \n
 \n
 <<<\n
@@ -57,7 +57,7 @@ or via JS8Call (@NARPNET, >=1900 WF)\n
 <# FIRST NET START                                                              #>\n
 <# This is short to allow emergency traffic to break in.                        #>\n
 <################################################################################>\n
-<CLRTX><TXRSID:on><NRSID:2><TX>\n
+<AFC:off><CLRTX><TXRSID:on><NRSID:2><TX>\n
 \n
 \n
 QST NARPNet de <MYCALL> NCS\n
@@ -210,7 +210,7 @@ Switching to THOR22 now.\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
-
+<AFC:off>
 
 //
 // Macro # 12
@@ -412,6 +412,7 @@ de <MYCALL> NCS: NOTHING HEARD\n
 <LOCK:on>\n
 <TXRSID:off>\n
 <RXRSID:on>\n
+<AFC:off>\n
 
 
 //
