@@ -779,7 +779,7 @@ de <MYCALL> NCS: CALL, Too many blocks.  Will get you after the net.\n
 <# Notepad.  I suggest Visual Studio Code on Windows, Mac, and Linux.  It is    #>\n
 <# free and a very good editor.  https://code.visualstudio.com/download         #>\n
 <################################################################################>\n
-<EXEC>"C:\Users\your_username\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt"</EXEC>\n
+<EXEC>"C:\Users\USERNAME\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_CHECKLIST.txt"</EXEC>\n
 
 
 //

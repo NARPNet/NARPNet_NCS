@@ -1,0 +1,28 @@
+NCS CHECKLIST TO PREPARE FOR NET
+--------------------------------
+
+Try to be fully prepared at least 30 min before the net and be ready to accept 
+early check-ins at least 15 min before net.
+
+
+[ ] Prepare NCS traffic.  NCS should have traffic if possible.  It doesn't have
+    to be much.  Just an AmRRON SITREP or something.  This can be done at any
+    time before the net.
+
+[ ] Check the AmRRON AMCON level at https://amrron.com/ and update the
+    AmCON_Level.txt file if necessary.
+
+[ ] Verify proper station operation.
+    1. Tune around the band and make sure you can hear other signals.
+    2. Check antenna SWR by TXing on low power and watching SWR meter on radio.
+    3. Set radio power level and filters appropriately.
+    4. Start FLDIGI and make a test transmission on net frequency and mode.
+    5. Make sure you can hear RX audio and, if possible, the TX audio.  This
+       helps you hear DUPs, avoid DUPs, hear wrong modes, band noise, static
+       crashes, and lets you know that your own signal sounds right.
+    6. Do something with a digital mode involving another station to make sure 
+       others can hear you. Checking Winlink mail works, or sending a JS8Call 
+       heartbeat on the main JS8 frequency and making sure you see replies. 
+
+[ ] Give the Net Start warning at least twice starting at least 10 minutes 
+    before the net starts.
