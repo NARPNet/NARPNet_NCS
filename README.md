@@ -1,6 +1,6 @@
 # NCS and Operator Macros for the NARPNet Digital Net
 
-You can [download the latest
+Version 1.0.0 FINAL is expected in a month or so. You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
 under Assets and ignore the source code zips.
 
@@ -40,10 +40,14 @@ Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**.
 
 ## Current status
 
-**This is a work in progress.**  
+**This is a work in progress.**
+
+The current pre-release is in active use in the net and has been for several months.
+
+Version 1.0.0 FINAL is expected in a month or so.
 
 The macros will inevitably change as we better understand the realities of 
-running a net and as we better understand our own requirements for the net.
+running a net and as we better understand our own requirements.
 
 Please report your experiences in the GitHub Discussion area or via email to
 lobanz@protonmail.com.  Thanks!
