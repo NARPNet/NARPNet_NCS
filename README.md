@@ -1,5 +1,9 @@
 # NCS and Operator Macros for the NARPNet Digital Net
 
+You can [download the latest
+pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
+under Assets and ignore the source code zips.
+
 Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**.
 
 There are also **[Video Instructions](https://github.com/NARPNet/NARPNet_NCS/wiki/5.-Video-Instructions)**.
@@ -38,20 +42,16 @@ Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**.
 
 **This is a work in progress.**  
 
-Just my first draft of a set of macros.  I am learning more and more about
-FLDIGI and macros as I do this.  Things will definitely change.  Maybe
-drastically.
+The macros will inevitably change as we better understand the realities of 
+running a net and as we better understand our own requirements for the net.
 
-We need discussion among others interested in being NCS operators to end up with
-a generally acceptable set of macros.  Please use the Discussions area of this
-repo for that.  If there are any actual bugs, please talk about them in
-Discussions first and then report an Issue if necessary.  To participate in
-Discussions or file Issues, you must have a GitHub account.
+Please report your experiences in the GitHub Discussion area or via email to
+lobanz@protonmail.com.  Thanks!
+
+## Download
 
 You can [download the latest
 pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
 under Assets and ignore the source code zips.
 
-Please report your experiences in the GitHub Discussion area or via email to
-lobanz@protonmail.com.  Thanks!
 
