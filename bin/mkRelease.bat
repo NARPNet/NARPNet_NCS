@@ -2,6 +2,10 @@
 
 set SCRIPT_DIR="%~dp0"
 
+echo DID YOU UPDATE THE VERSION?
+pause
+
+echo.
 echo Making release zip ...
 
 cd "%SCRIPT_DIR%"

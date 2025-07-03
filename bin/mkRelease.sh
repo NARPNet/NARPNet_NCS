@@ -2,6 +2,9 @@
 
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
 
+echo "DID YOU UPDATE THE VERSION?"
+read -p "Press enter to continue"
+echo
 echo "Making release zip ..."
 echo
 pushd . >& /dev/null

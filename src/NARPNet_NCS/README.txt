@@ -1,7 +1,7 @@
 NCS Macros for the NARPNet Digital Net
 --------------------------------------
 
-Documentation is in the GitHub Wiki: 
+Documentation and video instructions are in the GitHub Wiki: 
 
   https://github.com/NARPNet/NARPNet_NCS/wiki
 
@@ -9,14 +9,17 @@ Documentation is in the GitHub Wiki:
 Installation
 ------------
 
-(To upgrade the macros to a different version, see next section.)
+Please read the instructions carefully.
+
+(To upgrade the macros to a different version, see next section, "Upgrading".)
 
 Please see the documentation link above for detailed written and video 
 instructions on installation and use.
 
 The basic installation is as follows:
 - Extract the distribution archive (zip or tgz).
-- Copy the NARPNet_NCS dir in to your FLDIGI macros dir.
+- Copy the the whole NARPNet_NCS dir from the extracted zip folder  
+  into your FLDIGI macros dir.
 - From the NARPNet_NCS dir in the FLDIGI macros dir, run setup.bat (Windows)
   or setup.sh (Linux)
 
@@ -27,14 +30,18 @@ according to the documentation referenced above.  Otherwise FLDIGI will crash.
 Upgrading
 ---------
 
+Please read the instructions carefully.
+
 To upgrade the macros to a different version:
 - Take note of your text editor path in your existing Edit macro buttons.
 - Close FLDIGI.
-- Rename the NARPNet_NCS folder in your FLDIGI macros dir to a different 
+- Rename the whole NARPNet_NCS folder in your FLDIGI macros dir to a different 
   name such as "NARPNet_NCS.old".
 - Follow the installation process above, including running the setup script.  
 - Copy all the files from the "files" dir of the old macros dir to the "files" 
   dir in the new macros dir, overwriting the new files with the old ones.
+  Don't just copy the whole files dir or you may not get additional files in
+  the new release.
 - Open FLDIGI.
 - In FLDIGI, edit each of the edit button macros and correct your text editor 
   path. 
