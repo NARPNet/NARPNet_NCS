@@ -64,7 +64,7 @@
 //
 // Macro # 12
 /$ 11 NCS MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_NCS.mdf>
+<MACROS:MACRO_DIR/NARPNet_NCS.mdf>
 
 //
 // Macro # 13
@@ -124,7 +124,7 @@
 //
 // Macro # 24
 /$ 23 OP MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_OP.mdf>
+<MACROS:MACRO_DIR/NARPNet_OP.mdf>
 
 //
 // Macro # 25
@@ -184,7 +184,7 @@
 //
 // Macro # 36
 /$ 35 NET MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_NET.mdf>
+<MACROS:MACRO_DIR/NARPNet_NET.mdf>
 
 //
 // Macro # 37

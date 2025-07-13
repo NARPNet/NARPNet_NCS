@@ -105,7 +105,7 @@ Please:\n
 - Turn ON RxID \n
 \n
 \n
-We are at <FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/AmCON_Level.txt>\n
+We are at <FILE:MACRO_DIR/files/AmCON_Level.txt>\n
 \n
 \n
 Net Description:\n
@@ -121,7 +121,7 @@ More info will be provided here should a widespread internet outage occur.\n
 NCS Remarks:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_REMARKS.txt>\n
+<FILE:MACRO_DIR/files/NCS_REMARKS.txt>\n
 \n
 break\n
 \n
@@ -234,7 +234,7 @@ de <MYCALL> NCS\n
 I ACK these early check-ins:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/CHECKINS.txt>\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
 \n
 \n
 To check-in, use the following format:\n
@@ -333,7 +333,7 @@ In THOR32\n
 I will send the following traffic via FLAMP:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_TFC.txt>\n
+<FILE:MACRO_DIR/files/NCS_TFC.txt>\n
 \n
 \n
 Please:\n
@@ -418,7 +418,7 @@ de <MYCALL> NCS: NOTHING HEARD\n
 //
 // Macro # 24
 /$ 23 OP MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_OP.mdf>
+<MACROS:MACRO_DIR/NARPNet_OP.mdf>
 
 //
 // Macro # 25
@@ -582,37 +582,37 @@ de <MYCALL> NCS: DUP, please try again\n
 CHECKINS.txt:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/CHECKINS.txt>\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
 \n
 --------------------------\n
 NCS_TFC.txt:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_TFC.txt>\n
+<FILE:MACRO_DIR/files/NCS_TFC.txt>\n
 \n
 --------------------------\n
 AmCON_Level.txt:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/AmCON_Level.txt>\n
+<FILE:MACRO_DIR/files/AmCON_Level.txt>\n
 \n
 --------------------------\n
 NCS_REMARKS.txt\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_REMARKS.txt>\n
+<FILE:MACRO_DIR/files/NCS_REMARKS.txt>\n
 \n
 --------------------------\n
 NCS_CLOSING.txt\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_CLOSING.txt>\n
+<FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
 
 
 //
 // Macro # 36
 /$ 35 NET MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_NET.mdf>
+<MACROS:MACRO_DIR/NARPNet_NET.mdf>
 
 //
 // Macro # 37
@@ -673,7 +673,7 @@ CONTACT, CONNECT, COMMUNICATE, COORDINATE\n
 NCS Sign Off:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_CLOSING.txt>\n
+<FILE:MACRO_DIR/files/NCS_CLOSING.txt>\n
 \n
 \n
 *\n
@@ -709,7 +709,7 @@ de <MYCALL> NCS\n
 All of tonight's check-ins:\n
 \n
 \n
-<FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/CHECKINS.txt>\n
+<FILE:MACRO_DIR/files/CHECKINS.txt>\n
 \n
 break\n
 \n
@@ -780,10 +780,10 @@ de <MYCALL> NCS: CALL, Too many blocks.  Will get you after the net.\n
 <# Notepad.  I suggest Visual Studio Code on Windows, Mac, and Linux.  It is    #>\n
 <# free and a very good editor.  https://code.visualstudio.com/download         #>\n
 <################################################################################>\n
-<EXEC>"C:\Users\USERNAME\AppData\Local\Programs\Microsoft VS Code\Code.exe" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/CHECKINS.txt" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_TFC.txt" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_REMARKS.txt" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_CLOSING.txt" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/AmCON_Level.txt" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NCS_CHECKLIST.txt"</EXEC>\n
+<EXEC>"C:\Users\USERNAME\AppData\Local\Programs\Microsoft VS Code\Code.exe" "MACRO_DIR/files/CHECKINS.txt" "MACRO_DIR/files/NCS_TFC.txt" "MACRO_DIR/files/NCS_REMARKS.txt" "MACRO_DIR/files/NCS_CLOSING.txt" "MACRO_DIR/files/AmCON_Level.txt" "MACRO_DIR/files/NCS_CHECKLIST.txt"</EXEC>\n
 
 
 //
 // Macro # 48
 /$ 47 PERSONAL
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/PERSONAL.mdf>
+<MACROS:MACRO_DIR/PERSONAL.mdf>
