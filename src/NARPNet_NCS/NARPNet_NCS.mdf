@@ -141,7 +141,7 @@ break\n
 de <MYCALL> NCS\n
 \n
 Switching mode to THOR22 now\n
-<!MODEM:THOR22>\n
+<!MODEM:THOR22><!MODEM:THOR22>\n
 -----\n
 In THOR22\n
 \n
@@ -322,7 +322,7 @@ de <MYCALL> NCS\n
 *** NCS TRAFFIC ***\n
 \n
 Switching mode to THOR32 now\n
-<!MODEM:THOR32>\n
+<!MODEM:THOR32><!MODEM:THOR32>\n
 -----\n
 In THOR32\n
 \n
@@ -360,7 +360,7 @@ Please:\n
 de <MYCALL> NCS\n
 \n
 Switching mode to THOR32 now\n
-<!MODEM:THOR32>\n
+<!MODEM:THOR32><!MODEM:THOR32>\n
 -----\n
 In THOR32\n
 \n
@@ -521,7 +521,7 @@ de <MYCALL> NCS\n
 de <MYCALL> NCS\n
 \n
 Switching mode to C-4/250 now\n
-<!MODEM:CONTESTIA:250:4>\n
+<!MODEM:CONTESTIA:250:4><!MODEM:CONTESTIA:250:4>\n
 -----\n
 In C-4/250\n
 \n
@@ -620,7 +620,7 @@ de <MYCALL> NCS\n
 *** LATE CHECK-INS ***\n
 \n
 Switching mode to THOR22 now\n
-<!MODEM:THOR22>\n
+<!MODEM:THOR22><!MODEM:THOR22>\n
 -----\n
 In THOR22\n
 \n
@@ -722,7 +722,7 @@ de <MYCALL> NCS: \n
 de <MYCALL> NCS\n
 \n
 Switching mode to MFSK32 now\n
-<!MODEM:MFSK32>\n
+<!MODEM:MFSK32><!MODEM:MFSK32>\n
 -----\n
 In MFSK32\n
 \n
