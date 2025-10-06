@@ -411,8 +411,8 @@ de <MYCALL>\n
 
 //
 // Macro # 45
-/$ 44 
-
+/$ 44 RelayFast
+<MODEM:8PSK1200F>
 
 //
 // Macro # 46
