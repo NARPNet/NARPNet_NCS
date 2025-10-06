@@ -150,16 +150,13 @@ In THOR22\n
 
 //
 // Macro # 7
-/$ 6 StbyFlamp3 @>|
+/$ 6 StbyFlamp @>|
 <TX>\n
 \n
 de <MYCALL> NCS\n
 \n
 *\n
 *  Stand by for FLAMP traffic\n
-*  I will call for block fills max 3 times, more after net\n
-*  10 sec dead air = nothing heard\n
-*  No confirmations please\n
 *\n
 \n
 \n
@@ -372,14 +369,10 @@ In THOR32\n
 
 //
 // Macro # 19
-/$ 18 StbyFlamp @>|
+/$ 18 Blk Fills? @>|
 <TX>\n
 \n
-de <MYCALL> NCS\n
-\n
-*\n
-*  Stand by for FLAMP traffic\n
-*\n
+de <MYCALL> NCS: Missing blocks? Report now\n
 \n
 \n
 <RX>
@@ -537,14 +530,10 @@ In C-4/250\n
 
 //
 // Macro # 31
-/$ 30 Blk Fills? @>|
+/$ 30 BlkFil Last @>|
 <TX>\n
 \n
-de <MYCALL> NCS\n
-\n
-*\n
-*  Missing blocks? Pls report now\n
-*\n
+de <MYCALL> NCS: Missing blocks? Report now. Last call, more after net\n
 \n
 \n
 <RX>
@@ -742,23 +731,18 @@ In MFSK32\n
 
 //
 // Macro # 43
-/$ 42 BlkFil Short @>|
-<TX>\n
-\n
-de <MYCALL> NCS: Need blocks? Report now\n
-\n
-\n
-<RX>
-
-//
-// Macro # 44
-/$ 43 2 Many Blks @||
+/$ 42 2 Many Blks @||
 \n
 \n
 de <MYCALL> NCS: CALL, Too many blocks.  Will get you after the net.\n
 \n
 \n
 <RX>
+
+//
+// Macro # 44
+/$ 43 
+
 
 //
 // Macro # 45
