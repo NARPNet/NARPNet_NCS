@@ -164,13 +164,13 @@ de <MYCALL> NCS\n
 
 //
 // Macro # 8
-/$ 7 StbyFlmsg @>|
+/$ 7 StbyTfc @>|
 <TX>\n
 \n
 de <MYCALL> NCS\n
 \n
 *\n
-*  Stand by for FLMSG traffic\n
+*  Stand by for traffic\n
 *\n
 \n
 \n
@@ -379,10 +379,10 @@ de <MYCALL> NCS: Missing blocks? Report now\n
 
 //
 // Macro # 20
-/$ 19 NUTHIN @>|
+/$ 19 Thx 4 Tfc @>|
 <TX>\n
 \n
-de <MYCALL> NCS: NOTHING HEARD\n
+de <MYCALL> NCS: Thank you for your traffic!\n
 \n
 \n
 <RX>
@@ -540,10 +540,10 @@ de <MYCALL> NCS: Missing blocks? Report now. Last call, more after net\n
 
 //
 // Macro # 32
-/$ 31 DUP @>|
+/$ 31 NUTHIN @>|
 <TX>\n
 \n
-de <MYCALL> NCS: DUP, please try again\n
+de <MYCALL> NCS: NOTHING HEARD\n
 \n
 \n
 <RX>
@@ -741,8 +741,13 @@ de <MYCALL> NCS: CALL, Too many blocks.  Will get you after the net.\n
 
 //
 // Macro # 44
-/$ 43 
-
+/$ 43 DUP @>|
+<TX>\n
+\n
+de <MYCALL> NCS: DUP, please try again\n
+\n
+\n
+<RX>
 
 //
 // Macro # 45
