@@ -117,7 +117,7 @@ de <MYCALL>\n
 //
 // Macro # 12
 /$ 11 NCS MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_NCS.mdf>
+<MACROS:MACRO_DIR/NARPNet_NCS.mdf>
 
 //
 // Macro # 13
@@ -129,7 +129,7 @@ de <MYCALL>\n
 <TX>\n
 \n
 \n
-DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files\NWOTW.txt> / NO TFC\n
+DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\NWOTW.txt> / NO TFC\n
 \n
 \n
 <RX>
@@ -246,7 +246,7 @@ de <MYCALL>\n
 <TX>\n
 \n
 \n
-DE <MYCALL>  <MYCALL> / <MYNAME> / <MYST> /  <FILE:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files\NWOTW.txt> / NO TFC\n
+DE <MYCALL>  <MYCALL> / <MYNAME> / <MYST> /  <FILE:MACRO_DIR/files\NWOTW.txt> / NO TFC\n
 \n
 \n
 <RX>
@@ -343,7 +343,7 @@ de <MYCALL>: CALL, Too many blocks.  Will get you after the net.\n
 //
 // Macro # 36
 /$ 35 NET MACROS
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/NARPNet_NET.mdf>
+<MACROS:MACRO_DIR/NARPNet_NET.mdf>
 
 //
 // Macro # 37
@@ -351,7 +351,7 @@ de <MYCALL>: CALL, Too many blocks.  Will get you after the net.\n
 <################################################################################>\n
 <#                                                                              #>\n
 <################################################################################>\n
-<EXEC>"notepad.exe" "/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/files/NWOTW.txt"</EXEC>\n
+<EXEC>"notepad.exe" "MACRO_DIR/files/NWOTW.txt"</EXEC>\n
 
 
 //
@@ -447,4 +447,4 @@ de <MYCALL>\n
 //
 // Macro # 48
 /$ 47 PERSONAL
-<MACROS:/home/mprevost/projects/NARPNet/NARPNet_NCS/src/NARPNet_NCS/PERSONAL.mdf>
+<MACROS:MACRO_DIR/PERSONAL.mdf>
