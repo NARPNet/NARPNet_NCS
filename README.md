@@ -1,7 +1,7 @@
 # NCS and Operator Macros for the NARPNet Digital Net
 
 Release 1.0.0-FINAL is out! You can [download the latest
-pre-release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
+release](https://github.com/NARPNet/NARPNet_NCS/releases/latest/).  Look
 under Assets and ignore the source code zips.
 
 Documentation is in the **[Wiki](https://github.com/NARPNet/NARPNet_NCS/wiki)**.
