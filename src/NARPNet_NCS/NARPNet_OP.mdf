@@ -184,7 +184,7 @@ In THOR32\n
 /$ 18 Blk Fills? @>|
 <TX>\n
 \n
-de <MYCALL> NCS: Missing blocks? Report now.\n
+de <MYCALL>: Missing blocks? Report now.\n
 \n
 \n
 <RX>
@@ -294,7 +294,7 @@ In C-4/250\n
 /$ 30 Blk Fills Last @>|
 <TX>\n
 \n
-de <MYCALL> NCS: Missing blocks? Report now. Last call, more after net\n
+de <MYCALL>: Missing blocks? Report now. Last call, more after net\n
 \n
 \n
 <RX>
