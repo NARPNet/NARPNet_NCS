@@ -102,6 +102,7 @@ de <MYCALL>\n
 //
 // Macro # 10
 /$ 9 NARPNet 80m
+<LOCK:off>\n
 <QSY:3591.0:900>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
@@ -211,6 +212,7 @@ de <MYCALL>\n
 //
 // Macro # 22
 /$ 21 SEEN 80m
+<LOCK:off>\n
 <QSY:3585.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -312,6 +314,7 @@ de <MYCALL>: Missing blocks? Report now. Last call, more after net\n
 //
 // Macro # 34
 /$ 33 AmRRON 80m
+<LOCK:off>\n
 <QSY:3588.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n

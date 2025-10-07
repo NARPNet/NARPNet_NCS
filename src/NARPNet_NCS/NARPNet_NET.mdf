@@ -38,6 +38,7 @@
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:3588.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -58,6 +59,7 @@
 <# Weeks: ALL #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: Winter #>\n
+<LOCK:off>\n
 <QSY:3588.0:1000>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -78,6 +80,7 @@
 <# Weeks: ALL #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: Winter #>\n
+<LOCK:off>\n
 <QSY:3588.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -98,6 +101,7 @@
 <# Weeks: ALL #>\n
 <# Time: 8:30 PM Local (Central) #>\n
 <# Season: ALL #>\n
+<LOCK:off>\n
 <QSY:7115.0:800>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -116,6 +120,7 @@
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:3564.0:800>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -136,6 +141,7 @@
 <# Weeks: ALL #>\n
 <# Time: 20:30Z (2:30 PM CST) #>\n
 <# Season: ??? #>\n
+<LOCK:off>\n
 <QSY:3570.0:1500>\n
 <MODEM:OLIVIA-8/1K>\n
 <LOCK:on>\n
@@ -191,6 +197,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:7091.0:900>\n
 <MODEM:THOR22>\n
 <LOCK:on>\n
@@ -211,6 +218,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:7110.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -230,6 +238,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: ALL #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: Summer #>\n
+<LOCK:off>\n
 <QSY:7110.0:1000>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -250,6 +259,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: ALL #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: Summer #>\n
+<LOCK:off>\n
 <QSY:7110.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -269,6 +279,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: ALL #>\n
 <# Time: 9:00 PM Eastern #>\n
 <# Season: Winter #>\n
+<LOCK:off>\n
 <QSY:3595.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -289,6 +300,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:7115.0:800>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -309,6 +321,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> / NO TFC\n
 <# Weeks: ALL #>\n
 <# Time: 20:30Z (2:30 PM CST) #>\n
 <# Season: ??? #>\n
+<LOCK:off>\n
 <QSY:7110:1500>\n
 <MODEM:OLIVIA-8/1K>\n
 <LOCK:on>\n
@@ -363,6 +376,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: ALL #>\n
 <# Time: 7:00 PM Local, Central #>\n
 <# Season: ALL #>\n
+<LOCK:off>\n
 <QSY:3585.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -383,6 +397,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:14110.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -403,6 +418,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: 1,3,5 #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: ALL #>\n
+<LOCK:off>\n
 <QSY:3588.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -423,6 +439,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: ALL #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: Winter #>\n
+<LOCK:off>\n
 <QSY:3588.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -442,6 +459,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: ALL #>\n
 <# Time: 9:00 PM Eastern #>\n
 <# Season: Summer #>\n
+<LOCK:off>\n
 <QSY:7090.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -462,6 +480,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:14115.0:800>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -521,6 +540,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: N/A #>\n
 <# Time: N/A #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:7115.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -541,6 +561,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: ALL #>\n
 <# Time: 7:00 PM Local (Eastern) #>\n
 <# Season: N/A #>\n
+<LOCK:off>\n
 <QSY:7110.0:1000>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -560,6 +581,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: 2,4 #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: ALL #>\n
+<LOCK:off>\n
 <QSY:3588.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
@@ -580,6 +602,7 @@ DE <MYCALL>  <MYCALL> / <MYNAME> / <MYCOUNTY> / <MYST> /  <FILE:MACRO_DIR/files\
 <# Weeks: ALL #>\n
 <# Time: 01:00Z (7:00 PM CST) #>\n
 <# Season: Summer #>\n
+<LOCK:off>\n
 <QSY:7110.0:900>\n
 <MODEM:Cont-4/250>\n
 <LOCK:on>\n
